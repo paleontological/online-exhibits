@@ -1,6 +1,12 @@
+:root {
+  --color-one: #ff2e63;
+  --color-two: #08d9d6;
+  --color-three: #252a34;
+  --color-four: #eaeaea;
+}
 .Main, .Intro
 {
-  background-color: #08d9d6!important;
+  background-color: var(--color-two)!important;
 }
 .Main-content
 {
@@ -28,7 +34,7 @@
 }
 .Main h1
 {
-  color: #eaeaea;
+  color: var(--color-four);
   font-family: league-gothic, sans-serif;
   font-size: 5em;
   font-weight: 400;
@@ -36,30 +42,30 @@
 }
 .Main h2
 {
-  color: #ff2e63;
+  color: var(--color-one);
   font-family: adelle, serif;
   font-size: 2em;
   font-weight: 900;
-  -webkit-text-stroke-color: #252a34;
+  -webkit-text-stroke-color: var(--color-three);
   -webkit-text-stroke-width: 2px;
 }
 .Main h3, .summary-title
 {
-  color: #ff2e63;
+  color: var(--color-one);
   font-family: adelle, serif;
   font-size: 1.5em;
   font-weight: 400;
 }
 .image-title.sqs-dynamic-text p
 {
-  color: #ff2e63!important;
+  color: var(--color-one)!important;
   font-family: adelle, serif!important;
   font-style: normal!important;
   font-weight: 400!important;
 }
 .Main p, .image-slide-title
 {
-  color: #252a34;
+  color: var(--color-three);
   font-family: adelle-sans, sans-serif;
   font-size: 1.1em;
   font-weight: 400;
@@ -67,15 +73,15 @@
 }
 .Main a
 {
-  color: #ff2e63!important;
+  color: var(--color-one)!important;
 }
 div.image-slide-title
 {
-  color: #eaeaea;
+  color: var(--color-four);
 }
 .image-subtitle.sqs-dynamic-text p
 {
-  color: #eaeaea!important;
+  color: var(--color-four)!important;
   font-family: adelle-sans, sans-serif!important;
   font-style: normal!important;
   font-weight: 400!important;
@@ -86,9 +92,9 @@ div.image-slide-title
 }
 div.image-button-inner a, a.sqs-block-button-element--medium
 {
-  background: #ff2e63!important;
-  border-color: white!important;
-  color: white!important;
+  background: var(--color-one)!important;
+  border-color: var(--color-four)!important;
+  color: var(--color-four)!important;
   font-family: league-gothic, sans-serif!important;
   font-size: 1.5em!important;
   font-style: normal!important;
@@ -96,8 +102,8 @@ div.image-button-inner a, a.sqs-block-button-element--medium
 }
 #sub-nav
 {
-    background: #252a34;
-    border-bottom: 1px solid #ff2e63;
+    background: var(--color-three);
+    border-bottom: 1px solid var(--color-one);
     font-family: league-gothic, sans-serif;
     font-weight: 400;
     letter-spacing: .2em;
@@ -113,7 +119,7 @@ div.image-button-inner a, a.sqs-block-button-element--medium
 }
 #sub-nav li
 {
-    color: #eaeaea;
+    color: var(--color-four);
     display: inline-block;
     padding: 2vw 0.5vw;
     text-transform: uppercase;
@@ -123,8 +129,8 @@ div.image-button-inner a, a.sqs-block-button-element--medium
 #sub-nav li:hover,
 .active li
 {
-    background: #ff2e63;
-    color: #eaeaea;
+    background: var(--color-one);
+    color: var(--color-four);
 }
 @media screen and (max-width: 930px)
 {
