@@ -94,6 +94,7 @@ div.image-button-inner a, a.sqs-block-button-element--medium
 }
 #sub-nav
 {
+    background: #252a34;
     border-bottom: 1px solid #ff2e63;
     font-family: league-gothic, sans-serif;
     font-weight: 400;
