@@ -40,6 +40,8 @@
   font-family: adelle, serif;
   font-size: 2em;
   font-weight: 700;
+  -webkit-text-stroke-color: #252a34;
+  -webkit-text-stroke-width: 3px;
 }
 .Main h3, .summary-title
 {
