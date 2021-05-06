@@ -45,7 +45,7 @@
   color: var(--color-one);
   font-family: adelle, serif;
   font-size: 2em;
-  font-weight: 900;
+  font-weight: 700;
   -webkit-text-stroke-color: var(--color-three);
   -webkit-text-stroke-width: 2px;
 }
