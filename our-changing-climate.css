@@ -1,6 +1,6 @@
 .Main, .Intro
 {
-  background-color: #88e1f2!important;
+  background-color: #08d9d6!important;
 }
 .Main-content
 {
@@ -28,7 +28,7 @@
 }
 .Main h1
 {
-  color: white;
+  color: #eaeaea;
   font-family: league-gothic, sans-serif;
   font-size: 5em;
   font-weight: 400;
@@ -36,28 +36,28 @@
 }
 .Main h2
 {
-  color: #ff7c7c;
+  color: #ff2e63;
   font-family: adelle, serif;
   font-size: 2em;
   font-weight: 700;
 }
 .Main h3, .summary-title
 {
-  color: #ff7c7c;
+  color: #ff2e63;
   font-family: adelle, serif;
   font-size: 1.5em;
   font-weight: 400;
 }
 .image-title.sqs-dynamic-text p
 {
-  color: #ff7c7c!important;
+  color: #ff2e63!important;
   font-family: adelle, serif!important;
   font-style: normal!important;
   font-weight: 400!important;
 }
 .Main p, .image-slide-title
 {
-  color: #21243d;
+  color: #252a34;
   font-family: adelle-sans, sans-serif;
   font-size: 1.1em;
   font-weight: 400;
@@ -65,15 +65,15 @@
 }
 .Main a
 {
-  color: #ff7c7c!important;
+  color: #ff2e63!important;
 }
 div.image-slide-title
 {
-  color: white;
+  color: #eaeaea;
 }
 .image-subtitle.sqs-dynamic-text p
 {
-  color: white!important;
+  color: #eaeaea!important;
   font-family: adelle-sans, sans-serif!important;
   font-style: normal!important;
   font-weight: 400!important;
@@ -84,7 +84,7 @@ div.image-slide-title
 }
 div.image-button-inner a, a.sqs-block-button-element--medium
 {
-  background: #ff7c7c!important;
+  background: #ff2e63!important;
   border-color: white!important;
   color: white!important;
   font-family: league-gothic, sans-serif!important;
@@ -94,7 +94,7 @@ div.image-button-inner a, a.sqs-block-button-element--medium
 }
 #sub-nav
 {
-    border-bottom: 1px solid #ff7c7c;
+    border-bottom: 1px solid #ff2e63;
     font-family: league-gothic, sans-serif;
     font-weight: 400;
     letter-spacing: .2em;
@@ -110,7 +110,7 @@ div.image-button-inner a, a.sqs-block-button-element--medium
 }
 #sub-nav li
 {
-    color: white;
+    color: #eaeaea;
     display: inline-block;
     padding: 2vw 0.5vw;
     text-transform: uppercase;
@@ -120,8 +120,8 @@ div.image-button-inner a, a.sqs-block-button-element--medium
 #sub-nav li:hover,
 .active li
 {
-    background: #ff7c7c;
-    color: white;
+    background: #ff2e63;
+    color: #eaeaea;
 }
 @media screen and (max-width: 930px)
 {
