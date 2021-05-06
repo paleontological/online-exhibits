@@ -9,65 +9,58 @@
 }
 .Intro
 {
-
   box-shadow: 0 0.5em 1em #000;
 }
 .Intro h1
 {
   font-family: league-gothic, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  text-transform: uppercase;
   font-size: 7em;
+  font-weight: 400;
   line-height: 0.5em;
+  text-transform: uppercase;
 }
 .Intro h3
 {
   font-family: adelle, serif;
-  font-weight: 700;
-  font-style: bold;
   font-size: 2em;
+  font-weight: 700;
   line-height: 0.75em;
 }
 .Main h1
 {
-  font-family: league-gothic, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  text-transform: uppercase;
-  font-size: 5em;
   color: white;
+  font-family: league-gothic, sans-serif;
+  font-size: 5em;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 .Main h2
 {
   color: #b9c435;
   font-family: adelle, serif;
-  font-weight: 700;
-  font-style: bold;
   font-size: 2em;
+  font-weight: 700;
 }
 .Main h3, .summary-title
 {
   color: #b9c435;
   font-family: adelle, serif;
-  font-weight: 400;
-  font-style: normal;
   font-size: 1.5em;
+  font-weight: 400;
 }
 .image-title.sqs-dynamic-text p
 {
   color: #b9c435!important;
   font-family: adelle, serif!important;
-  font-weight: 400!important;
   font-style: normal!important;
+  font-weight: 400!important;
 }
 .Main p, .image-slide-title
 {
-  font-family: adelle-sans, sans-serif;
-  font-weight: 400;
-  font-style: normal;
   color: white;
+  font-family: adelle-sans, sans-serif;
   font-size: 1.1em;
+  font-weight: 400;
   line-height: 1.25em;
 }
 .Main a
@@ -80,10 +73,10 @@ div.image-slide-title
 }
 .image-subtitle.sqs-dynamic-text p
 {
-  font-family: adelle-sans, sans-serif!important;
-  font-weight: 400!important;
-  font-style: normal!important;
   color: white!important;
+  font-family: adelle-sans, sans-serif!important;
+  font-style: normal!important;
+  font-weight: 400!important;
 }
 .image-card-wrapper
 {
@@ -91,38 +84,38 @@ div.image-slide-title
 }
 div.image-button-inner a, a.sqs-block-button-element--medium
 {
-  color: white!important;
-  font-size: 1.5em!important;
-  font-family: league-gothic, sans-serif!important;
-  font-weight: 400!important;
-  font-style: normal!important;
   background: #b9c435!important;
   border-color: white!important;
+  color: white!important;
+  font-family: league-gothic, sans-serif!important;
+  font-size: 1.5em!important;
+  font-style: normal!important;
+  font-weight: 400!important;
 }
 #sub-nav
 {
-    width: 100%;
     border-bottom: 1px solid #b9c435;
-    letter-spacing: .2em;
-    font-weight: 400;
     font-family: league-gothic, sans-serif;
+    font-weight: 400;
+    letter-spacing: .2em;
     line-height: 1em;
+    width: 100%;
 }
 #sub-nav ul
 {
+    list-style-type: none;
     margin: 0;
     padding-left: 0;
-    list-style-type: none;
     text-align: center;
 }
 #sub-nav li
 {
+    color: white;
     display: inline-block;
     padding: 2vw 0.5vw;
-    color: white;
-    vertical-align: middle;
     text-transform: uppercase;
     transition: background 1s, color 1s;
+    vertical-align: middle;
 }
 #sub-nav li:hover,
 .active li
