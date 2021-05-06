@@ -39,9 +39,9 @@
   color: #ff2e63;
   font-family: adelle, serif;
   font-size: 2em;
-  font-weight: 700;
+  font-weight: 900;
   -webkit-text-stroke-color: #252a34;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 2px;
 }
 .Main h3, .summary-title
 {
