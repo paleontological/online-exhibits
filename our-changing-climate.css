@@ -1,6 +1,6 @@
 .Main, .Intro
 {
-  background-color: #007080!important;
+  background-color: #61f2f5!important;
 }
 .Main-content
 {
@@ -36,21 +36,21 @@
 }
 .Main h2
 {
-  color: #b9c435;
+  color: #723881;
   font-family: adelle, serif;
   font-size: 2em;
   font-weight: 700;
 }
 .Main h3, .summary-title
 {
-  color: #b9c435;
+  color: #723881;
   font-family: adelle, serif;
   font-size: 1.5em;
   font-weight: 400;
 }
 .image-title.sqs-dynamic-text p
 {
-  color: #b9c435!important;
+  color: #723881!important;
   font-family: adelle, serif!important;
   font-style: normal!important;
   font-weight: 400!important;
@@ -65,7 +65,7 @@
 }
 .Main a
 {
-  color: #b9c435!important;
+  color: #723881!important;
 }
 div.image-slide-title
 {
@@ -84,7 +84,7 @@ div.image-slide-title
 }
 div.image-button-inner a, a.sqs-block-button-element--medium
 {
-  background: #b9c435!important;
+  background: #723881!important;
   border-color: white!important;
   color: white!important;
   font-family: league-gothic, sans-serif!important;
@@ -94,7 +94,7 @@ div.image-button-inner a, a.sqs-block-button-element--medium
 }
 #sub-nav
 {
-    border-bottom: 1px solid #b9c435;
+    border-bottom: 1px solid #723881;
     font-family: league-gothic, sans-serif;
     font-weight: 400;
     letter-spacing: .2em;
@@ -120,7 +120,7 @@ div.image-button-inner a, a.sqs-block-button-element--medium
 #sub-nav li:hover,
 .active li
 {
-    background: #b9c435;
+    background: #723881;
     color: white;
 }
 @media screen and (max-width: 930px)
