@@ -27,7 +27,7 @@
 }
 .Intro h3
 {
-  font-family: 'Coustard', serif;
+  font-family: 'Boogaloo', sans-serif;
   font-size: 2em;
   font-weight: 400;
 }
@@ -48,7 +48,7 @@
 .Main h3, .summary-title
 {
   color: var(--color-one);
-  font-family: 'Coustard', serif;
+  font-family: 'Boogaloo', sans-serif;
   font-size: 1.5em;
   font-weight: 400;
 }
