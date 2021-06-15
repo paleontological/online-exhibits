@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Coustard&display=swap');;
 :root {
   --color-one: #876ea7;
   --color-two: skyblue;
@@ -20,7 +20,7 @@
 }
 .Intro h1
 {
-  font-family: 'Boogaloo', sans-serif;
+  font-family: 'Coustard', serif;
   font-size: 7em;
   font-weight: 400;
   line-height: 0.5em;
@@ -36,7 +36,7 @@
 .Main h1
 {
   color: var(--color-four);
-  font-family: 'Boogaloo', sans-serif;
+  font-family: 'Coustard', serif;
   font-size: 5em;
   font-weight: 400;
   text-transform: uppercase;
@@ -44,11 +44,9 @@
 .Main h2
 {
   color: var(--color-one);
-  font-family: adelle, serif;
+  font-family: 'Boogaloo', sans-serif;
   font-size: 2em;
-  font-weight: 700;
-  -webkit-text-stroke-color: var(--color-three);
-  -webkit-text-stroke-width: 2px;
+  font-weight: 400;
 }
 .Main h3, .summary-title
 {
