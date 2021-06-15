@@ -107,7 +107,7 @@ div.image-button-inner a, a.sqs-block-button-element--medium
     border-bottom: 1px solid var(--color-one);
     font-family: 'Boogaloo', sans-serif;
     font-weight: 400;
-    letter-spacing: .2em;
+    letter-spacing: .1em;
     line-height: 1em;
     width: 100%;
 }
