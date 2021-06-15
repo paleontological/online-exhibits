@@ -20,7 +20,7 @@
 }
 .Intro h1
 {
-  font-family: league-gothic, sans-serif;
+  font-family: 'Boogaloo', sans-serif;
   font-size: 7em;
   font-weight: 400;
   line-height: 0.5em;
@@ -36,7 +36,7 @@
 .Main h1
 {
   color: var(--color-four);
-  font-family: league-gothic, sans-serif;
+  font-family: 'Boogaloo', sans-serif;
   font-size: 5em;
   font-weight: 400;
   text-transform: uppercase;
