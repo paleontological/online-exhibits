@@ -49,7 +49,7 @@
 {
   color: var(--color-one);
   font-family: 'Boogaloo', sans-serif;
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: 400;
 }
 .image-title.sqs-dynamic-text p
@@ -58,14 +58,13 @@
   font-family: 'Coustard', serif!important;
   font-style: normal!important;
   font-weight: 400!important;
-  font-size: 1em;
 }
 .Main p, .image-slide-title
 {
   color: var(--color-three);
   font-family: 'Lato', sans-serif;
   font-size: 1.1em;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.25em;
 }
 .Main a
