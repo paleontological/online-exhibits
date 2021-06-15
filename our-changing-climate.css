@@ -28,7 +28,7 @@
 }
 .Intro h3
 {
-  font-family: adelle, serif;
+  font-family: 'Coustard', serif;
   font-size: 2em;
   font-weight: 700;
   line-height: 0.75em;
@@ -45,13 +45,13 @@
 {
   color: var(--color-one);
   font-family: 'Boogaloo', sans-serif;
-  font-size: 2em;
-  font-weight: 400;
+  font-size: 3em;
+  font-weight: 700;
 }
 .Main h3, .summary-title
 {
   color: var(--color-one);
-  font-family: adelle, serif;
+  font-family: 'Coustard', serif;
   font-size: 1.5em;
   font-weight: 400;
 }
@@ -94,7 +94,7 @@ div.image-button-inner a, a.sqs-block-button-element--medium
   background: var(--color-one)!important;
   border-color: var(--color-four)!important;
   color: var(--color-four)!important;
-  font-family: league-gothic, sans-serif!important;
+  font-family: 'Boogaloo', sans-serif!important;
   font-size: 1.5em!important;
   font-style: normal!important;
   font-weight: 400!important;
