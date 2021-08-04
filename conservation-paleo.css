@@ -110,6 +110,54 @@ div.image-button-inner a, a.sqs-block-button-element--medium {
   color: var(--color-white);
 }
 
+/*Oyster as Ecosystem Engineers*/
+#block-yui_3_17_2_1_1626100712324_5699{
+ background: var(--color-green) !important;
+}
+#block-yui_3_17_2_1_1626100712324_7362{
+ background: var(--color-green) !important;
+}
+/*image-slide-title*/
+#block-yui_3_17_2_1_1626100712324_7362 p{
+ color: var(--color-white) !important;
+}
+/*section title*/
+#block-yui_3_17_2_1_1626100712324_5699 h3{
+color: var(--color-white) !important;
+}
+/*section paragraph*/
+#block-yui_3_17_2_1_1626100712324_5699 p{
+color: var(--color-white) !important;
+}
+
+/*Benefits and to People*/
+#block-yui_3_17_2_1_1626706835940_157401{
+ background: var(--color-blue) !important;
+}
+/* image-slide-title */
+#block-yui_3_17_2_1_1626100712324_12943 p{
+   color: var(--color-white) !important;
+}
+/*section title*/
+#block-yui_3_17_2_1_1627418995094_99019 h3{
+ color: var(--color-white) !important;
+}
+#block-yui_3_17_2_1_1627418995094_99019{
+   background: var(--color-blue) !important;
+}
+/*section paragraph color*/
+#block-yui_3_17_2_1_1626706835940_157401 p{
+ color: var(--color-white) !important;
+}
+
+/* SECTION: Oyster Reef Decline */
+#block-yui_3_17_2_1_1626100712324_23082 h3{
+ color: var(--color-red) !important;
+}
+#block-yui_3_17_2_1_1626706835940_160605 strong{
+  color: var(--color-red) !important;
+}
+
 @media screen and (max-width: 930px) {
   #sub-nav li {
     padding: 15px;
