@@ -116,12 +116,12 @@ a.sqs-block-button-element--medium
 }
 
 div.image-button-inner a, a.sqs-block-button-element--medium {
-  background: var(--color-blue);
-  border-color: var(--color-green);
-  color: var(--color-white);
-  font-size: 1em;
-  font-style: normal;
-  font-weight: 400;
+  background: var(--color-blue) !important;
+  border-color: var(--color-green) !important;
+  color: var(--color-white) !important;
+  font-size: 1em !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
 }
 
 @media screen and (max-width: 930px) {
