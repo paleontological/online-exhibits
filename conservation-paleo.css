@@ -6,27 +6,12 @@
   --color-white: #FFF;
 }
 
-.Intro {
-  background-color: var(--color-white);
-  padding: 0 5% 0 5%;
-}
-
-.Intro img {
-  display: none !important;
-}
-
-.Intro h1 {
-  color: var(--color-green);
-  font-family: aktiv-grotesk, sans-serif;
-  font-size: 7em;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 1em;
-}
-
 .Main-content {
   padding: 0 5% 5% 5%;
   text-rendering: optimizeLegibility;
+}
+
+.Main {
   font-family: aktiv-grotesk, sans-serif;
 }
 
