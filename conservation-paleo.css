@@ -11,7 +11,7 @@
   text-rendering: optimizeLegibility;
 }
 
-.Main {
+.Main p, .Main h1, .Main h2, .Main h3, .image-slide-title {
   font-family: aktiv-grotesk, sans-serif;
 }
 
