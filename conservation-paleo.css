@@ -86,7 +86,7 @@ a.sqs-block-button-element--medium
 
 /*Color Blocks and Related Styling*/
 #block-yui_3_17_2_1_1626458177393_13319,
-#yui_3_17_2_1_1628105959939_7429,
+.sqs-row#yui_3_17_2_1_1628105959939_7429,
 #block-yui_3_17_2_1_1626100712324_5699,
 #block-yui_3_17_2_1_1626100712324_7362 {
   background: var(--color-green) !important;
