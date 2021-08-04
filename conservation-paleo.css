@@ -7,18 +7,18 @@
 }
 
 .Main-content {
-  padding: 0 5% 5% 5%;
+  padding: 0 5% 5%;
   text-rendering: optimizeLegibility;
 }
 
-.Main p,
 .Main h1,
 .Main h2,
 .Main h3,
+.Main p,
 .image-slide-title,
-div.image-button-inner a,
-a.sqs-block-button-element--medium
-#sub-nav {
+a.sqs-block-button-element--medium,
+#sub-nav,
+div.image-button-inner a {
   font-family: aktiv-grotesk, sans-serif;
 }
 
@@ -46,7 +46,8 @@ a.sqs-block-button-element--medium
   font-weight: 500;
 }
 
-.Main p, .image-slide-title {
+.Main p,
+.image-slide-title {
   color: var(--color-black);
   font-size: 1.1em;
   font-style: normal;
@@ -79,29 +80,36 @@ a.sqs-block-button-element--medium
   vertical-align: middle;
 }
 
-#sub-nav li:hover, .active li {
+#sub-nav li:hover,
+.active li {
   background: var(--color-red);
   color: var(--color-white);
 }
 
 /*Color Blocks and Related Styling*/
-/*Pg.1-Putting Oysters to Work txt*/#block-yui_3_17_2_1_1626458177393_13319,
-/*Pg.1-Natural Geographic Range img*/#block-yui_3_17_2_1_1626458177393_25616,
-/*Pg.1-At PRI inset txt*/#yui_3_17_2_1_1626458177393_27361,
-/*Pg.1-Calipers img*/#block-yui_3_17_2_1_1628110254745_18515,
-/**/#block-yui_3_17_2_1_1626100712324_5699,
-/**/#block-yui_3_17_2_1_1626100712324_7362 {
+/*Pg.1-Putting Oysters to Work txt*/
+#block-yui_3_17_2_1_1626458177393_13319,
+/*Pg.1-Natural Geographic Range img*/
+#block-yui_3_17_2_1_1626458177393_25616,
+/*Pg.1-At PRI inset txt*/
+#yui_3_17_2_1_1626458177393_27361,
+/*Pg.1-Calipers img*/
+#block-yui_3_17_2_1_1628110254745_18515,
+/**/
+#block-yui_3_17_2_1_1626100712324_5699,
+/**/
+#block-yui_3_17_2_1_1626100712324_7362 {
   background: var(--color-green) !important;
 }
 
-#block-yui_3_17_2_1_1626458177393_13319 h2,
-#block-yui_3_17_2_1_1626458177393_13319 p,
-#block-yui_3_17_2_1_1626100712324_7362 p,
+#block-yui_3_17_2_1_1626100712324_12943 p,
 #block-yui_3_17_2_1_1626100712324_5699 h3,
 #block-yui_3_17_2_1_1626100712324_5699 p,
-#block-yui_3_17_2_1_1626100712324_12943 p,
-#block-yui_3_17_2_1_1627418995094_99019 h3,
-#block-yui_3_17_2_1_1626706835940_157401 p {
+#block-yui_3_17_2_1_1626100712324_7362 p,
+#block-yui_3_17_2_1_1626458177393_13319 h2,
+#block-yui_3_17_2_1_1626458177393_13319 p,
+#block-yui_3_17_2_1_1626706835940_157401 p,
+#block-yui_3_17_2_1_1627418995094_99019 h3 {
   color: var(--color-white) !important;
 }
 
@@ -110,15 +118,16 @@ a.sqs-block-button-element--medium
   background: var(--color-blue) !important;
 }
 
-.Main a,
 #block-yui_3_17_2_1_1625600959990_22164 h2,
-#block-yui_3_17_2_1_1628036045558_93547 strong,
 #block-yui_3_17_2_1_1626100712324_23082 h3,
-#block-yui_3_17_2_1_1626706835940_160605 strong {
+#block-yui_3_17_2_1_1626706835940_160605 strong,
+#block-yui_3_17_2_1_1628036045558_93547 strong,
+.Main a {
   color: var(--color-red) !important;
 }
 
-div.image-button-inner a, a.sqs-block-button-element--medium {
+a.sqs-block-button-element--medium,
+div.image-button-inner a {
   background: var(--color-blue) !important;
   border-color: var(--color-green) !important;
   color: var(--color-white) !important;
