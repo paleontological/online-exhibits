@@ -1,84 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Coustard&family=Lato&display=swap');
+@import url('https://use.typekit.net/kfj3gpa.css');
 :root {
-  --color-one: #876ea7;
-  --color-two: skyblue;
-  --color-three: #252a34;
-  --color-four: #eaeaea;
+  --color-one: #2c5462;
+  --color-two: #b2d3cc;
+  --color-three: #69868f;
+  --color-four: #24747c;
+  --color-five: #f2cd93;
+  --color-six: #fff;
 }
-.Main, .Intro
+.Main
 {
-  background-color: var(--color-two)!important;
+  background-color: var(--color-one)!important;
 }
 .Main-content
 {
     padding: 0 10% 5%;
     text-rendering: optimizeLegibility;
 }
-.Intro
-{
-  box-shadow: 0 0.5em 1em #000;
-}
-.Intro h1
-{
-  font-family: 'Coustard', serif;
-  font-size: 7em;
-  font-weight: 400;
-  line-height: 0.5em;
-}
-.Intro h3
-{
-  font-family: 'Boogaloo', sans-serif;
-  font-size: 2em;
-  font-weight: 400;
-}
 .Main h1
 {
-  color: var(--color-four);
+  color: var(--color-five);
   font-family: 'Coustard', serif;
   font-size: 5em;
   font-weight: 400;
 }
 .Main h2
 {
-  color: var(--color-one);
+  color: var(--color-five);
   font-family: 'Boogaloo', sans-serif;
   font-size: 3em;
   font-weight: 700;
 }
 .Main h3, .summary-title
 {
-  color: var(--color-one);
+  color: var(--color-two);
   font-family: 'Boogaloo', sans-serif;
   font-size: 2em;
   font-weight: 400;
 }
 .image-title.sqs-dynamic-text p
 {
-  color: var(--color-one)!important;
-  font-family: 'Coustard', serif!important;
+  color: var(--color-six)!important;
+  font-family: 'Adelle-Sans', serif!important;
   font-style: normal!important;
   font-weight: 400!important;
 }
 .Main p, .image-slide-title
 {
-  color: var(--color-three);
-  font-family: 'Lato', sans-serif;
+  color: var(--color-six);
+  font-family: 'Adelle-Sans', sans-serif;
   font-size: 1.1em;
   font-weight: 700;
   line-height: 1.25em;
 }
 .Main a
 {
-  color: var(--color-one)!important;
+  color: var(--color-five)!important;
 }
 div.image-slide-title
 {
-  color: var(--color-four);
+  color: var(--color-six);
 }
 .image-subtitle.sqs-dynamic-text p
 {
-  color: var(--color-four)!important;
-  font-family: 'Lato', sans-serif!important;
+  color: var(--color-six)!important;
+  font-family: 'Adelle-Sans', sans-serif!important;
   font-style: normal!important;
   font-weight: 400!important;
 }
@@ -88,19 +73,19 @@ div.image-slide-title
 }
 div.image-button-inner a, a.sqs-block-button-element--medium
 {
-  background: var(--color-one)!important;
+  background: var(--color-two)!important;
   border-color: var(--color-four)!important;
-  color: var(--color-four)!important;
-  font-family: 'Boogaloo', sans-serif!important;
+  color: var(--color-six)!important;
+  font-family: 'Adelle-Sans', sans-serif!important;
   font-size: 1.5em!important;
   font-style: normal!important;
   font-weight: 400!important;
 }
 #sub-nav
 {
-    background: var(--color-three);
-    border-bottom: 1px solid var(--color-one);
-    font-family: 'Boogaloo', sans-serif;
+    background: var(--color-four);
+    border-bottom: 1px solid var(--color-five);
+    font-family: 'League-Gothic', sans-serif;
     font-weight: 400;
     letter-spacing: .1em;
     line-height: 1em;
@@ -115,7 +100,7 @@ div.image-button-inner a, a.sqs-block-button-element--medium
 }
 #sub-nav li
 {
-    color: var(--color-four);
+    color: var(--color-six);
     display: inline-block;
     padding: 2vw 0.5vw;
     text-transform: uppercase;
@@ -125,7 +110,7 @@ div.image-button-inner a, a.sqs-block-button-element--medium
 #sub-nav li:hover,
 .active li
 {
-    background: var(--color-one);
+    background: var(--color-two);
     color: var(--color-four);
 }
 @media screen and (max-width: 930px)
