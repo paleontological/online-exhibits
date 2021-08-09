@@ -19,9 +19,10 @@
 .Main h1
 {
   color: var(--color-five);
-  font-family: 'League-Gothic', serif;
+  font-family: league-gothic, serif;
   font-size: 5em;
   font-weight: 400;
+  text-transform: uppercase;
 }
 .Main h2
 {
@@ -29,6 +30,7 @@
   font-family: league-gothic, sans-serif;
   font-size: 3em;
   font-weight: 700;
+  text-transform: uppercase;
 }
 .Main h3, .summary-title
 {
@@ -36,6 +38,7 @@
   font-family: league-gothic, sans-serif;
   font-size: 2em;
   font-weight: 400;
+  text-transform: uppercase;
 }
 .image-title.sqs-dynamic-text p
 {
