@@ -19,7 +19,7 @@
 .Main h1
 {
   color: var(--color-five);
-  font-family: league-gothic, serif;
+  font-family: league-gothic, sans-serif;
   font-size: 5em;
   font-weight: 400;
   text-transform: uppercase;
