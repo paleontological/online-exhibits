@@ -19,21 +19,21 @@
 .Main h1
 {
   color: var(--color-five);
-  font-family: 'Coustard', serif;
+  font-family: 'League-Gothic', serif;
   font-size: 5em;
   font-weight: 400;
 }
 .Main h2
 {
   color: var(--color-five);
-  font-family: 'Boogaloo', sans-serif;
+  font-family: 'League-Gothic', sans-serif;
   font-size: 3em;
   font-weight: 700;
 }
 .Main h3, .summary-title
 {
   color: var(--color-two);
-  font-family: 'Boogaloo', sans-serif;
+  font-family: 'League-Gothic', sans-serif;
   font-size: 2em;
   font-weight: 400;
 }
