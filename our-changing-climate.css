@@ -26,28 +26,28 @@
 .Main h2
 {
   color: var(--color-five);
-  font-family: 'League-Gothic', sans-serif;
+  font-family: league-gothic, sans-serif;
   font-size: 3em;
   font-weight: 700;
 }
 .Main h3, .summary-title
 {
   color: var(--color-two);
-  font-family: 'League-Gothic', sans-serif;
+  font-family: league-gothic, sans-serif;
   font-size: 2em;
   font-weight: 400;
 }
 .image-title.sqs-dynamic-text p
 {
   color: var(--color-six)!important;
-  font-family: 'Adelle-Sans', serif!important;
+  font-family: adelle, sans-serif!important;
   font-style: normal!important;
   font-weight: 400!important;
 }
 .Main p, .image-slide-title
 {
   color: var(--color-six);
-  font-family: 'Adelle-Sans', sans-serif;
+  font-family: adelle, sans-serif;
   font-size: 1.1em;
   font-weight: 700;
   line-height: 1.25em;
@@ -63,7 +63,7 @@ div.image-slide-title
 .image-subtitle.sqs-dynamic-text p
 {
   color: var(--color-six)!important;
-  font-family: 'Adelle-Sans', sans-serif!important;
+  font-family: adelle, sans-serif!important;
   font-style: normal!important;
   font-weight: 400!important;
 }
@@ -76,7 +76,7 @@ div.image-button-inner a, a.sqs-block-button-element--medium
   background: var(--color-two)!important;
   border-color: var(--color-four)!important;
   color: var(--color-six)!important;
-  font-family: 'Adelle-Sans', sans-serif!important;
+  font-family: adelle, sans-serif!important;
   font-size: 1.5em!important;
   font-style: normal!important;
   font-weight: 400!important;
@@ -85,7 +85,7 @@ div.image-button-inner a, a.sqs-block-button-element--medium
 {
     background: var(--color-four);
     border-bottom: 1px solid var(--color-five);
-    font-family: 'League-Gothic', sans-serif;
+    font-family: league-gothic, sans-serif;
     font-weight: 400;
     letter-spacing: .1em;
     line-height: 1em;
