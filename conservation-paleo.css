@@ -110,8 +110,8 @@ div.image-button-inner a {
   margin: -1vw;
   padding: 1em;
 }
-.green-block h2, .green-block p, .green-block em {
-  color: var(--color-white);
+.green-block h2, .green-block p, .green-block em, .green-block strong {
+  color: var(--color-white) !important;
 }
 .green-block h2 {
   font-weight: 700;
@@ -137,7 +137,7 @@ div.image-button-inner a {
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 300px;
-  background-color: black;
+  background-color: var(--color-blue);
   color: #fff;
   text-align: center;
   padding: 0.5em;
@@ -145,7 +145,7 @@ div.image-button-inner a {
   /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
-  bottom: 100%;
+  bottom: 120%;
   left: 50%;
   margin-left: -150px; /* Use half of the width (120/2 = 60), to center the tooltip */
 }
@@ -157,7 +157,7 @@ div.image-button-inner a {
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: black transparent transparent transparent;
+  border-color: var(--color-blue) transparent transparent transparent;
 }
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
