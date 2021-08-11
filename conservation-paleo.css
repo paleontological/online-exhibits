@@ -115,7 +115,6 @@ div.image-button-inner a {
 .blue-block {
   margin: -1vw;
   padding: 1em;
-  color: var(--color-white) !important;
 }
 .green-block h2,
 .green-block p,
@@ -126,7 +125,7 @@ div.image-button-inner a {
 .blue-block em,
 .blue-block strong,
 .meta-description {
-
+  color: var(--color-white) !important;
 }
 .green-block em, .blue-block em, .meta-description {
   font-style: italic;
