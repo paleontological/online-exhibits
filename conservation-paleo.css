@@ -131,8 +131,7 @@ div.image-button-inner a {
 #block-yui_3_17_2_1_1626706835940_160605 strong,
 /*Pg.1-Death Assemblages bold*/
 #block-yui_3_17_2_1_1628036045558_93547 strong,
-.Main a,
-.Main em {
+.Main a {
   color: var(--color-red) !important;
 }
 
@@ -146,6 +145,10 @@ div.image-button-inner a {
   font-weight: 400 !important;
 }
 
+.Main em {
+  color: var(--color-red);
+  font-style: normal;
+}
 .green-block {
   background: var(--color-green);
   margin: -1vw;
