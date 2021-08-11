@@ -148,7 +148,14 @@ div.image-button-inner a {
 
 .green-block {
   background: var(--color-green);
+  margin: -1vw;
+  padding: 1em;
+}
+.green-block h3, .green-block p {
   color: var(--color-white);
+}
+.green-block h3 {
+  font-weight: 700;
 }
 
 /* Tooltip container */
