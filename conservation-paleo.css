@@ -146,7 +146,7 @@ div.image-button-inner a {
 }
 
 /*Popup Term Definitions*/
-a[href="#conservation-paleobiology"] {
+a[href$="#conservation-paleobiology"] {
   cursor: help !important;
   text-decoration: none !important;
   position: relative;
@@ -154,7 +154,7 @@ a[href="#conservation-paleobiology"] {
   border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
 
 }
-a[href="#conservation-paleobiology"], a[href="#definition-conservation-paleobiology"] {
+a[href$="#conservation-paleobiology"], a[href$="#definition-conservation-paleobiology"] {
   visibility: hidden;
   width: 300px;
   background-color: black;
@@ -169,7 +169,7 @@ a[href="#conservation-paleobiology"], a[href="#definition-conservation-paleobiol
   left: 50%;
   margin-left: -150px; /* Use half of the width (120/2 = 60), to center the tooltip */
 }
-a[href="#conservation-paleobiology"], a[href="#definition-conservation-paleobiology"]::after {
+a[href$="#conservation-paleobiology"], a[href$="#definition-conservation-paleobiology"]::after {
   content: " ";
   position: absolute;
   top: 100%; /* At the bottom of the tooltip */
@@ -179,7 +179,7 @@ a[href="#conservation-paleobiology"], a[href="#definition-conservation-paleobiol
   border-style: solid;
   border-color: black transparent transparent transparent;
 }
-a[href="#conservation-paleobiology"]:hover, a[href="#definition-conservation-paleobiology"] {
+a[href$="#conservation-paleobiology"]:hover, a[href$="#definition-conservation-paleobiology"] {
   visibility: visible;
 }
 a[href="#ecosystem-engineers"] {}
