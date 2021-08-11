@@ -115,13 +115,13 @@ div.image-button-inner a {
   margin: -1vw;
   padding: 1em;
 }
-.green-block h2, .green-block p, .green-block em, .green-block strong, .blue-block h2, .blue-block p, .blue-block em, .blue-block strong {
+.green-block h2, .green-block p, .green-block em, .green-block strong, .blue-block h2, .blue-block p, .blue-block em, .blue-block strong, .meta-description {
   color: var(--color-white) !important;
 }
 .green-block h2, .blue-block h2 {
   font-weight: 700;
 }
-.green-block em, .blue-block em {
+.green-block em, .blue-block em, .meta-description {
   font-style: italic;
 }
 .green-block a, .blue-block a {
