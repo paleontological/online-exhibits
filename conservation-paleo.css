@@ -102,7 +102,7 @@ div.image-button-inner a {
   font-weight: 400 !important;
 }
 
-.Main em:not(.meta-description) {
+.Main em:not(.meta-description em) {
   color: var(--color-red);
   font-style: normal;
 }
