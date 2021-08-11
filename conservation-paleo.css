@@ -147,7 +147,6 @@ div.image-button-inner a {
 
 /*Popup Term Definitions*/
 a[href$="#conservation-paleobiology"] {
-  cursor: help !important;
   text-decoration: none !important;
   position: relative;
   display: inline-block;
@@ -180,6 +179,7 @@ a[href$="#conservation-paleobiology"], a[href$="#definition-conservation-paleobi
   border-color: black transparent transparent transparent;
 }
 a[href$="#conservation-paleobiology"]:hover, a[href$="#definition-conservation-paleobiology"] {
+  cursor: help !important;
   visibility: visible;
 }
 a[href="#ecosystem-engineers"] {}
