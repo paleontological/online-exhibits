@@ -86,49 +86,7 @@ div.image-button-inner a {
   color: var(--color-white);
 }
 
-/*Color Blocks and Related Styling*/
-/*Pg.1-Natural Geographic Range img*/
-#block-yui_3_17_2_1_1626458177393_25616,
-/**/
-#block-yui_3_17_2_1_1626100712324_5699,
-/**/
-#block-yui_3_17_2_1_1626100712324_7362,
-.green-block {
-  background: var(--color-green) !important;
-}
-
-/**/
-#block-yui_3_17_2_1_1626100712324_12943 p,
-/**/
-#block-yui_3_17_2_1_1626100712324_5699 h3,
-/**/
-#block-yui_3_17_2_1_1626100712324_5699 p,
-/**/
-#block-yui_3_17_2_1_1626100712324_7362 p,
-/**/
-#block-yui_3_17_2_1_1626458177393_13319 h2,
-/**/
-#block-yui_3_17_2_1_1626458177393_13319 p,
-/**/
-#block-yui_3_17_2_1_1626706835940_157401 p,
-/**/
-#block-yui_3_17_2_1_1627418995094_99019 h3 {
-  color: var(--color-white) !important;
-}
-
-#block-yui_3_17_2_1_1626706835940_157401,
-#block-yui_3_17_2_1_1627418995094_99019 {
-  background: var(--color-blue) !important;
-}
-
-/*Pg.1-Windows into the Past txt*/
-#block-yui_3_17_2_1_1625600959990_22164 h2,
-/**/
-#block-yui_3_17_2_1_1626100712324_23082 h3,
-/**/
-#block-yui_3_17_2_1_1626706835940_160605 strong,
-/*Pg.1-Death Assemblages bold*/
-#block-yui_3_17_2_1_1628036045558_93547 strong,
+.Main strong,
 .Main a {
   color: var(--color-red) !important;
 }
@@ -161,6 +119,10 @@ div.image-button-inner a {
 .green-block em {
   font-style: italic;
 }
+.green-block a {
+  color: var(--color-blue) !important;
+  font-weight: bold;
+}
 
 /* Tooltip container */
 .tooltip {
@@ -168,11 +130,10 @@ div.image-button-inner a {
   display: inline-block;
   border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
 }
-
-/* Tooltip text */
 .tooltip:hover {
   cursor: help;
 }
+/* Tooltip text */
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 300px;
@@ -188,7 +149,6 @@ div.image-button-inner a {
   left: 50%;
   margin-left: -150px; /* Use half of the width (120/2 = 60), to center the tooltip */
 }
-
 .tooltip .tooltiptext::after {
   content: " ";
   position: absolute;
@@ -199,7 +159,6 @@ div.image-button-inner a {
   border-style: solid;
   border-color: black transparent transparent transparent;
 }
-
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
   visibility: visible;
