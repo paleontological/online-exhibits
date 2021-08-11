@@ -124,8 +124,7 @@ div.image-button-inner a {
 .blue-block h2,
 .blue-block p,
 .blue-block em,
-.blue-block strong,
-.meta-description {
+.blue-block strong {
   color: var(--color-white) !important;
 }
 .green-block a {
