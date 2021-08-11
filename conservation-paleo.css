@@ -89,6 +89,7 @@ div.image-button-inner a {
 .Main strong,
 .Main a {
   color: var(--color-red) !important;
+  font-weight: bold;
 }
 
 a.sqs-block-button-element--medium,
@@ -101,7 +102,7 @@ div.image-button-inner a {
   font-weight: 400 !important;
 }
 
-.Main em {
+.Main em:not(.green-block em, .blue-block em, .meta-description) {
   color: var(--color-red);
   font-style: normal;
 }
@@ -127,12 +128,11 @@ div.image-button-inner a {
 .meta-description {
   color: var(--color-white) !important;
 }
-.green-block em, .blue-block em, .meta-description {
-  font-style: italic;
-}
-.green-block a, .blue-block a {
+.green-block a {
   color: var(--color-blue) !important;
-  font-weight: bold;
+}
+.blue-block a {
+  color: var(--color-green) !important;
 }
 
 /* Tooltip container */
