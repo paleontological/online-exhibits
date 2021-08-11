@@ -145,48 +145,6 @@ div.image-button-inner a {
   font-weight: 400 !important;
 }
 
-/*Popup Term Definitions*/
-a[href$="#conservation-paleobiology"] {
-  text-decoration: none !important;
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
-
-}
-a[href$="#conservation-paleobiology"], a[href$="#definition-conservation-paleobiology"] {
-  visibility: hidden;
-  width: 300px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  padding: 0.5em;
-  border-radius: 6px;
-  /* Position the tooltip text - see examples below! */
-  position: absolute;
-  z-index: 1;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -150px; /* Use half of the width (120/2 = 60), to center the tooltip */
-}
-a[href$="#conservation-paleobiology"], a[href$="#definition-conservation-paleobiology"]::after {
-  content: " ";
-  position: absolute;
-  top: 100%; /* At the bottom of the tooltip */
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: black transparent transparent transparent;
-}
-a[href$="#conservation-paleobiology"]:hover, a[href$="#definition-conservation-paleobiology"] {
-  cursor: help !important;
-  visibility: visible;
-}
-a[href="#ecosystem-engineers"] {}
-a[href="#ecosystem-services"] {}
-a[href="#death-assemblage"] {}
-a[href="#shifting-baselines"] {}
-
 @media screen and (max-width: 930px) {
   #sub-nav li {
     padding: 15px;
