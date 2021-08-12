@@ -28,7 +28,7 @@
   color: var(--color-five);
   font-family: league-gothic, sans-serif;
   font-size: 3em;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
 }
 .Main h3, .summary-title
