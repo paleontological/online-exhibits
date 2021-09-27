@@ -138,7 +138,7 @@ div.image-button-inner a {
 .tooltip {
   position: relative;
   display: inline-block;
-  background-color: hsla(0, 0%, 55%, 0.5);
+  background-color: hsla(0, 0%, 50%, 0.5);
   padding: 0 0.25em;
   border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
 }
