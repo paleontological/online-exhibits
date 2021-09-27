@@ -143,6 +143,9 @@ div.image-button-inner a {
 .tooltip:hover {
   cursor: help;
 }
+.tooltip::after {
+  content: "ℹ️";
+}
 /* Tooltip text */
 .tooltip .tooltiptext {
   visibility: hidden;
