@@ -144,7 +144,7 @@ div.image-button-inner a {
   cursor: help;
 }
 .tooltip::after {
-  content: "ℹ️";
+  content: " 📖";
 }
 /* Tooltip text */
 .tooltip .tooltiptext {
