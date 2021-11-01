@@ -127,12 +127,14 @@ div.image-button-inner a {
 .green-block em,
 .green-block strong,
 .green-block mark,
+.green-block figcaption,
 .blue-block h2,
 .blue-block h3,
 .blue-block p,
 .blue-block em,
 .blue-block strong,
-.blue-block mark {
+.blue-block mark,
+.blue-block figcaption {
   color: var(--color-white) !important;
 }
 .green-block a {
