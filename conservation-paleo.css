@@ -114,12 +114,12 @@ div.image-button-inner a {
 }
 .green-block,
 .blue-block {
-  /*margin: -1vw;*/
-  padding: 1em 2em;
+  /*margin: -1vw;
+  padding: 1em 2em;*/
 }
 .green-block img,
 .blue-block img{
-  padding: 0;
+  margin: 0;
 }
 .green-block h2,
 .green-block h3,
