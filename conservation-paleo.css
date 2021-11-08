@@ -143,6 +143,9 @@ div.image-button-inner a {
 .blue-block a {
   color: var(--color-green) !important;
 }
+.Main .meta {
+  background: none;
+}
 /* Tooltip container */
 .tooltip {
   position: relative;
