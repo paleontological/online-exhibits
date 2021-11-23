@@ -221,6 +221,7 @@ mark {
   background-color: var(--color-black);
   color: var(--color-white);
   text-align: center;
+  font-style: normal;
   padding: 0.5em;
   border-radius: 6px;
   /* Position the tooltip text - see examples below! */
