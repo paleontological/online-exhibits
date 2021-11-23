@@ -212,7 +212,6 @@ mark {
   cursor: help;
 }
 .tooltip::after {
-  border-bottom: none;
   content: " 📖";
   font-style: normal;
   font-weight: 400;
