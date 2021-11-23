@@ -194,6 +194,7 @@ div.image-button-inner a {
 mark {
   background: none;
   font-style: italic;
+  border-bottom: 1px dotted;
   /*margin: 0 -0.4em;
   padding: 0.1em 0.4em;
   border-radius: 0.8em 0.3em;
