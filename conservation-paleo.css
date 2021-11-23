@@ -192,6 +192,7 @@ div.image-button-inner a {
   display: inline-block;
 }
 mark {
+  background: none;
   font-style: italic;
   /*margin: 0 -0.4em;
   padding: 0.1em 0.4em;
@@ -211,6 +212,7 @@ mark {
 }
 .tooltip::after {
   content: " 📖";
+  font-style: normal;
 }
 /* Tooltip text */
 .tooltip .tooltiptext {
