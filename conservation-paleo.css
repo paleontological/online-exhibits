@@ -192,7 +192,8 @@ div.image-button-inner a {
   display: inline-block;
 }
 mark {
-  margin: 0 -0.4em;
+  font-style: italic;
+  /*margin: 0 -0.4em;
   padding: 0.1em 0.4em;
   border-radius: 0.8em 0.3em;
   background: transparent;
@@ -203,7 +204,7 @@ mark {
     rgba(255, 225, 0, 0.3)
   );
   -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
+  box-decoration-break: clone;*/
 }
 .tooltip:hover {
   cursor: help;
