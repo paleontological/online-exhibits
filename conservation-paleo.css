@@ -224,10 +224,8 @@ mark {
   background-color: var(--color-black);
   color: var(--color-white);
   text-align: center;
-  font-size: 1.1em;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.25em;
   padding: 0.5em;
   border-radius: 6px;
   /* Position the tooltip text - see examples below! */
