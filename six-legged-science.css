@@ -25,13 +25,22 @@
     font-size: 1.25em;
     font-weight: bold;
 }
+#SLS-mce-EMAIL {
+    margin-top: 0.25em;
+}
 #SLS-mc-embedded-subscribe {
-    padding: 0.5em 1.5em;
-    border-color: var(--color-red);
+    border: 2px solid var(--color-red);
+    border-radius: 0.25em;
     background-color: var(--color-yellow);
-    font-family: var(--font-paragraph);
-    text-transform: uppercase;
     color: var(--color-red);
+    font-family: var(--font-paragraph);
     font-weight: bold;
     margin-top: 0.75em;
+    padding: 0.5em 1.5em;
+    text-transform: uppercase;
+}
+#SLS-mc-embedded-subscribe:hover {
+    color: var(--color-yellow);
+    background-color: var(--color-red);
+    border: 2px solid var(--color-yellow);
 }
