@@ -13,16 +13,18 @@
 .Main p {
     font-family: var(--font-paragraph);
 }
-.Main label {
-    font-family: var(--font-subheading);
-    color: var(--color-red);
-}
 .Main em {
-    font-family: var(--font-title);
     color: var(--color-pine);
-    padding-right: 0.2em;
+    font-family: var(--font-title);
     font-size: 1.25em;
+    padding-right: 0.2em;
 }
-.Main input {
+#SLS-mc_embed_signup .email input {
     border-color: var(--color-yellow);
+}
+#SLS-mc_embed_signup label {
+    color: var(--color-red);
+    font-family: var(--font-subheading);
+    font-size: 1.25em;
+    font-weight: bold;
 }
