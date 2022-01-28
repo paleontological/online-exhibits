@@ -10,3 +10,6 @@
     --font-accents: 'Comforter', cursive;
     --font-paragraph: 'Carrois Gothic', sans-serif;
 }
+.Main p {
+    font-family: var(--font-paragraph);
+}
