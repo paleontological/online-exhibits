@@ -13,3 +13,10 @@
 .Main p {
     font-family: var(--font-paragraph);
 }
+.Main label {
+    font-family: var(--font-subheading);
+}
+.Main em {
+    font-family: var(--font-title);
+    text-transform: uppercase;
+}
