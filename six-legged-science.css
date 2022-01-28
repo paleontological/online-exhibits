@@ -19,12 +19,6 @@
     font-size: 1.25em;
     padding-right: 0.2em;
 }
-#SLS-mce-EMAIL input {
-    border-color: var(--color-yellow);
-}
-#SLS-mc-embedded-subscribe {
-    float: right;
-}
 #SLS-mc_embed_signup label {
     color: var(--color-red);
     font-family: var(--font-subheading);
