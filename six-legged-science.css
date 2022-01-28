@@ -1,0 +1,12 @@
+:root {
+    --color-yellow: #F4BC21;
+    --color-green: #38A318;
+    --color-blue: #0A7BBA;
+    --color-red: #D32727;
+    --color-pine: #264E3D;
+    --color-white: #fff;
+    --font-title: 'BenchNine', sans-serif;
+    --font-subheading: 'Pangolin', cursive;
+    --font-accents: 'Comforter', cursive;
+    --font-paragraph: 'Carrois Gothic', sans-serif;
+}
