@@ -15,8 +15,12 @@
 }
 .Main label {
     font-family: var(--font-subheading);
+    color: var(--color-red);
 }
 .Main em {
     font-family: var(--font-title);
-    text-transform: uppercase;
+    color: var(--color-pine);
+}
+.Main input {
+    
 }
