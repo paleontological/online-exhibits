@@ -20,7 +20,9 @@
 .Main em {
     font-family: var(--font-title);
     color: var(--color-pine);
+    padding-right: 0.2em;
+    font-size: 1.25em;
 }
 .Main input {
-    
+    border-color: var(--color-yellow);
 }
