@@ -1,2 +1,2 @@
-# pri
-files for various PRI projects
+# online-exhibits
+Files for online exhibits
