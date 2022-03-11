@@ -64,6 +64,9 @@
   font-family: var(--font-paragraph);
   font-size: 2em;
   padding-left: 0.5em;
+  position: relative;
+  top: 1em;
+  z-index: 999;
 }
 .Main h3 {
   color: var(--color-green-light);
@@ -76,6 +79,7 @@
   font-weight: 700;
 }
 .Main blockquote {
+  border: none;
   color: var(--color-green-dark);
 }
 .Main .image-caption {
@@ -90,7 +94,13 @@
 .Main p:nth-child(4) strong {
   color: var(--color-green-light);
 }
-.Main div:nth-child(7), .Main div:nth-child(10) {
+.Main div:nth-child(7), .Main div:nth-child(14) {
   background-color: var(--color-green-dark);
   color: var(--color-white);
+  padding: 1em 0;
+}
+.Main .image-caption p {
+  color: white;
+  font-size: 0.75em;
+  font-weight: 500;
 }
