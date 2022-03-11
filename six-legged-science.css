@@ -1,46 +1,96 @@
 :root {
-    --color-yellow: #F4BC21;
-    --color-green: #38A318;
-    --color-blue: #0A7BBA;
-    --color-red: #D32727;
-    --color-pine: #264E3D;
+    --color-black: #000;
+    --color-blue-dark: #043047;
+    --color-blue-mid: #117bbc;
+    --color-blue-light: #8fcbe8;
+    --color-blue-lighter: #c5e2f3;
+    --color-green-dark: #29503d;
+    --color-green-light: #87b14b;
+    --color-green-mid: #4c9879;
+    --color-tan: #c7b789;
+    --color-orange-dark: #f07827;
+    --color-orange-light: #e0a770;
+    --color-orange-mid: #fab216;
+    --color-red-dark: #6c0d0f;
+    --color-red-light: #b16263;
+    --color-red-lighter: #ef7656;
+    --color-red-mid: #d12828;
     --color-white: #fff;
-    --font-title: 'BenchNine', sans-serif;
-    --font-subheading: 'Pangolin', cursive;
-    --font-accents: 'Comforter', cursive;
-    --font-paragraph: 'Carrois Gothic', sans-serif;
+    --font-title: 'bee', sans-serif;
+    --font-paragraph: 'trade-gothic-next', sans-serif;
+}
+/* Exhibit Nav */
+#sub-nav {
+    background-color: var(--color-green-light);
+    border-bottom: 1px solid var(--color-green-dark);
+    font-size: 1em;
+    font-weight: 800;
+    line-height: 1em;
+    width: 100%;
+}
+#sub-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    text-align: center;
+}
+#sub-nav li {
+    color: var(--color-white);
+    display: inline-block;
+    margin: 0;
+    padding: 1.5vw 0.75vw;
+    transition: background 1s, color 1s;
+    vertical-align: middle;
+}
+#sub-nav li:hover,
+  .active li {
+    background: var(--color-red-light);
+    color: var(--color-white);
+}
+/* End Exhibit Nav */
+
+.Main h1 {
+  color: var(--color-green-dark);
+  font-family: var(--font-title);
+  font-size: 15em;
+  letter-spacing: 0;
+  line-height: 0.75em;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.Main h2 {
+    color: var(--color-white);
+    background-color: var(--color-green-light);
+    font-family: var(--font-paragraph);
+    font-size: 2em;
+    padding-left: 0.5em;
+}
+.Main h3 {
+  color: var(--color-green-light);
+  font-family: var(--font-paragraph);
+  font-size: 1.5em;
+  font-weight: bold;
 }
 .Main p {
-    font-family: var(--font-paragraph);
+  font-family: var(--font-paragraph);
+  font-weight: 700;
 }
-.Main em {
-    color: var(--color-pine);
-    font-family: var(--font-title);
-    font-size: 1.25em;
-    padding-right: 0.2em;
+.Main blockquote {
+    color: var(--color-green-dark);
 }
-#SLS-mc_embed_signup label {
-    color: var(--color-red);
-    font-family: var(--font-subheading);
-    font-size: 1.25em;
-    font-weight: bold;
+.Main .image-caption {
+    color: var(--color-white);
 }
-#SLS-mce-EMAIL {
-    margin-top: 0.25em;
+.Main p:nth-child(2) strong {
+    color: var(--color-red-lighter);
+  }
+.Main p:nth-child(3) strong {
+    color: var(--color-orange-light);
 }
-#SLS-mc-embedded-subscribe {
-    border: 2px solid var(--color-red);
-    border-radius: 0.25em;
-    background-color: var(--color-yellow);
-    color: var(--color-red);
-    font-family: var(--font-paragraph);
-    font-weight: bold;
-    margin-top: 0.75em;
-    padding: 0.5em 1.5em;
-    text-transform: uppercase;
+.Main p:nth-child(4) strong {
+    color: var(--color-green-light);
 }
-#SLS-mc-embedded-subscribe:hover {
-    color: var(--color-yellow);
-    background-color: var(--color-red);
-    border: 2px solid var(--color-yellow);
+.Main div:nth-child(8) {
+    background-color: var(--color-green-dark);
+    color: var(--color-white);
 }
