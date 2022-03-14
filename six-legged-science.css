@@ -106,7 +106,17 @@
   padding: 1em 0;
 }
 .Main .image-caption p {
-  color: white;
+  color: var(--color-white);
   font-size: 0.75em;
   font-weight: 500;
+}
+.Main .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element {
+  border: 2px solid var(--color-green-dark);
+  background: var(--color-green-light);
+  color: var(--color-green-dark);
+  font-family: var(--font-paragraph);
+}
+.Main .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element:hover {
+  background: var(--color-green-dark);
+  color: var(--color-white);
 }
