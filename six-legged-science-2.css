@@ -7,6 +7,9 @@
     --color-white: #fff;
     --font-title: "bee", sans-serif;
     --font-paragraph: "trade-gothic-next", sans-serif;
+    --font-did-you-know: "sunflower", sans-serif;
+    font-weight: 400;
+    font-style: normal;"
   }
   /* Exhibit Nav */
   #sub-nav {
@@ -65,8 +68,14 @@
     color: var(--color-black);
     background: var(--color-orange-light);
     font-family: var(--font-paragraph);
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: bold;
+    line-height: 1.5em;
+    padding-left: 0.5em;
+    position: relative;
+    top: 2em;
+    z-index: 999;
+    transform: rotate(-5deg);
   }
   .Main p {
     font-family: var(--font-paragraph);
@@ -101,4 +110,18 @@
     background: var(--color-green-dark);
     color: var(--color-white);
   }
-  
+  .Main img[src*="madagascan-sunset-moth.png"] {
+    transform: rotate(5deg);
+  }
+  .Main img[src*="european-cherry-fruit-fly.jpg"] {
+    transform: rotate(45deg);
+  }
+.Main blockquote {
+  border: none;
+  color: var(--color-black);
+  background: var(--color-orange-mid);
+  font-family: var(--font-title);
+  font-size: 1.25em;
+  padding: 2em;
+  transform: rotate(-5deg);
+}
