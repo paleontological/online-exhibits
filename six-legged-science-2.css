@@ -1,6 +1,6 @@
 :root {
     --color-black: #000;
-  --color-charcoal: #231f20;
+    --color-charcoal: #231f20;
     --color-orange-dark: #f07827;
     --color-orange-light: #e0a770;
     --color-orange-mid: #fab216;
@@ -65,7 +65,7 @@
   .Main h3 {
     color: var(--color-black);
     background: var(--color-orange-light);
-    font-family: var(--font-paragraph);
+    font-family: var(--font-did-you-know);
     font-size: 2em;
     font-weight: bold;
     line-height: 1.5em;
