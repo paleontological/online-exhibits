@@ -37,8 +37,10 @@
 #sub-nav li {
   color: var(--color-white);
   display: inline-block;
+  font-family: var(--font-paragraph);
   margin: 0;
   padding: 1.5vw 0.75vw;
+  text-transform: uppercase;
   transition: background 1s, color 1s;
   vertical-align: middle;
 }
@@ -49,6 +51,10 @@
 }
 /* End Exhibit Nav */
 
+.Main-content {
+  padding: 5% 2%;
+  text-rendering: optimizeLegibility;
+}
 .Main h1 {
   color: var(--color-green-dark);
   font-family: var(--font-title);
@@ -94,7 +100,7 @@
 .Main p:nth-child(4) strong {
   color: var(--color-green-light);
 }
-.Main div:nth-child(7), .Main div:nth-child(14) {
+.Main .sqs-row:nth-of-type(2), .Main .sqs-row:nth-of-type(4)  {
   background-color: var(--color-green-dark);
   color: var(--color-white);
   padding: 1em 0;
