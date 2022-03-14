@@ -1,5 +1,6 @@
 :root {
-    --color-charcoal: #231f20;
+    --color-black: #000;
+  --color-charcoal: #231f20;
     --color-orange-dark: #f07827;
     --color-orange-light: #e0a770;
     --color-orange-mid: #fab216;
@@ -34,12 +35,14 @@
   }
   #sub-nav li:hover,
   .active li {
-    background: var(--color-orange-light);
+    background: var(--color-orange-dark);
     color: var(--color-white);
   }
   /* End Exhibit Nav */
   
   .Main-content {
+    background: var(--color-charcoal);
+    color: var(--color-white);
     padding: 5% 2% 1% 2%;
     text-rendering: optimizeLegibility;
   }
@@ -54,50 +57,39 @@
   }
   .Main h2 {
     color: var(--color-orange-mid);
-    background-color: var(--color-green-light);
     font-family: var(--font-paragraph);
     font-size: 2em;
-    padding-left: 0.5em;
-    position: relative;
-    top: 1em;
-    z-index: 999;
+    line-height: 0.75em;
   }
   .Main h3 {
-    color: var(--color-green-light);
+    color: var(--color-black);
+    background: var(--color-orange-light);
     font-family: var(--font-paragraph);
     font-size: 1.5em;
     font-weight: bold;
   }
   .Main p {
     font-family: var(--font-paragraph);
-    color: var(--color-white);
     font-weight: 700;
-  }
-  .Main blockquote {
-    border: none;
-    color: var(--color-green-dark);
   }
   .Main .image-caption {
     color: var(--color-white);
   }
-  .Main p:nth-child(2) strong {
-    color: var(--color-red-lighter);
+  .Main p strong {
+    color: var(--color-orange-mid);
   }
-  .Main p:nth-child(3) strong {
-    color: var(--color-orange-light);
-  }
-  .Main p:nth-child(4) strong {
-    color: var(--color-green-light);
-  }
-  .Main .sqs-row:nth-of-type(1), .Main .sqs-row:nth-of-type(4)  {
-    background-color: var(--color-charcoal);
-    color: var(--color-white);
+  .Main .sqs-row:nth-of-type(7), .Main .sqs-row:nth-of-type(10), .Main .sqs-row:nth-of-type(11) {
+    background-color: var(--color-white);
+    color: var(--color-black);
     padding: 1em 0;
   }
   .Main .image-caption p {
     color: var(--color-white);
     font-size: 0.75em;
     font-weight: 500;
+  }
+.Main .image-caption strong {
+    color: var(--color-orange-mid);
   }
   .Main .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element {
     border: 2px solid var(--color-green-dark);
