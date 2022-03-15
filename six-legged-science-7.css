@@ -34,7 +34,7 @@
 }
 #sub-nav li:hover,
 .active li {
-  background: var(--color-red-light);
+  background: var(--color-green-dark);
   color: var(--color-white);
 }
 /* End Exhibit Nav */
@@ -46,7 +46,6 @@
 }
 .help-list .row img {
   float: left;
-  
 }
 .Main-content {
   background: var(--color-black);
@@ -67,7 +66,6 @@
   color: var(--color-white);
   font-family: var(--font-paragraph);
   font-size: 2em;
-  line-height: 0.75em;
 }
 .Main h3 {
   color: var(--color-white);
@@ -86,18 +84,8 @@
   font-family: var(--font-paragraph);
   font-weight: 700;
 }
-.Main .image-caption {
-  color: var(--color-white);
-}
 .Main p strong {
   color: var(--color-green-light);
-}
-.Main .sqs-row:nth-of-type(7),
-.Main .sqs-row:nth-of-type(10),
-.Main .sqs-row:nth-of-type(11) {
-  background-color: var(--color-white);
-  color: var(--color-black);
-  padding: 1em 0;
 }
 .Main .image-caption p {
   color: var(--color-white);
@@ -105,7 +93,7 @@
   font-weight: 500;
 }
 .Main .image-caption strong {
-  color: var(--color-orange-mid);
+  color: var(--color-green-light);
 }
 .Main
   .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element {
@@ -118,12 +106,6 @@
   .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element:hover {
   background: var(--color-green-dark);
   color: var(--color-white);
-}
-.Main img[src*="madagascan-sunset-moth.png"] {
-  transform: rotate(5deg);
-}
-.Main img[src*="european-cherry-fruit-fly.jpg"] {
-  transform: rotate(45deg);
 }
 .Main blockquote {
   border: none;
