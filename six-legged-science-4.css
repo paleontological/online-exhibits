@@ -1,0 +1,53 @@
+:root {
+    --color-black: #000;
+    --color-blue-dark: #043047;
+    --color-blue-mid: #117bbc;
+    --color-blue-light: #8fcbe8;
+    --color-blue-lighter: #c5e2f3;
+    --color-charcoal: #231f20;
+    --color-green-dark: #29503d;
+    --color-green-light: #87b14b;
+    --color-green-mid: #4c9879;
+    --color-tan: #c7b789;
+    --color-orange-dark: #f07827;
+    --color-orange-light: #e0a770;
+    --color-orange-mid: #fab216;
+    --color-red-dark: #6c0d0f;
+    --color-red-light: #b16263;
+    --color-red-lighter: #ef7656;
+    --color-red-mid: #d12828;
+    --color-white: #fff;
+    --font-title: "bee", sans-serif;
+    --font-paragraph: "trade-gothic-next", sans-serif;
+  }
+  /* Exhibit Nav */
+  #sub-nav {
+    background-color: var(--color-green-light);
+    border-bottom: 1px solid var(--color-green-dark);
+    font-size: 1em;
+    font-weight: 800;
+    line-height: 1em;
+    width: 100%;
+  }
+  #sub-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+  #sub-nav li {
+    color: var(--color-white);
+    display: inline-block;
+    font-family: var(--font-paragraph);
+    margin: 0;
+    padding: 1.5vw 0.75vw;
+    text-transform: uppercase;
+    transition: background 1s, color 1s;
+    vertical-align: middle;
+  }
+  #sub-nav li:hover,
+  .active li {
+    background: var(--color-red-light);
+    color: var(--color-white);
+  }
+  /* End Exhibit Nav */
