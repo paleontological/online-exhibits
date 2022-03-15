@@ -39,6 +39,15 @@
 }
 /* End Exhibit Nav */
 
+.help-list .row {
+  vertical-align: middle;
+  display: table-row;
+  clear: both;
+}
+.help-list .row img {
+  float: left;
+  
+}
 .Main-content {
   background: var(--color-black);
   color: var(--color-white);
