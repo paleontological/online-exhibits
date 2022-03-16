@@ -1,6 +1,5 @@
 :root {
   --color-black: #000;
-  --color-blue-lighter: #c5e2f3;
   --color-green-dark: #29503d;
   --color-green-light: #87b14b;
   --color-green-mid: #4c9879;
@@ -60,7 +59,7 @@
   background: var(--color-green-light);
   font-family: var(--font-paragraph);
   font-size: 2em;
-  line-height: 0.75em;
+  line-height: 1em;
 }
 .Main h3 {
   color: var(--color-white);
@@ -83,7 +82,7 @@
   color: var(--color-white);
 }
 .Main p strong {
-  color: var(--color-orange-mid);
+  color: var(--color-green-light);
 }
 .Main .sqs-row:nth-of-type(7),
 .Main .sqs-row:nth-of-type(10),
@@ -98,7 +97,7 @@
   font-weight: 500;
 }
 .Main .image-caption strong {
-  color: var(--color-orange-mid);
+  color: var(--color-green-lilght);
 }
 .Main
   .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element {
@@ -112,16 +111,10 @@
   background: var(--color-green-dark);
   color: var(--color-white);
 }
-.Main img[src*="madagascan-sunset-moth.png"] {
-  transform: rotate(5deg);
-}
-.Main img[src*="european-cherry-fruit-fly.jpg"] {
-  transform: rotate(45deg);
-}
 .Main blockquote {
   border: none;
   color: var(--color-black);
-  background: var(--color-orange-mid);
+  background: var(--color-tan);
   font-family: var(--font-title);
   font-size: 1.25em;
   padding: 2em;
