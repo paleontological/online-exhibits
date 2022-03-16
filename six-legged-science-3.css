@@ -122,5 +122,5 @@
   transform: rotate(-5deg);
 }
 .Main img[src*="formosus-jewelmark.jpg"] {
-  transform: rotate(5deg);
+  transform: rotate(-10deg);
 }
