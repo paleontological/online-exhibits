@@ -7,6 +7,7 @@
   --color-white: #fff;
   --font-title: "bee", sans-serif;
   --font-paragraph: "trade-gothic-next", sans-serif;
+  --font-did-you-know: "sunflower", sans-serif;
 }
 /* Exhibit Nav */
 #sub-nav {
@@ -56,10 +57,12 @@
   text-transform: uppercase;
 }
 .Main h2 {
+  background: var(--color-red-mid);
   color: var(--color-white);
   font-family: var(--font-paragraph);
   font-size: 2em;
-  line-height: 0.75em;
+  line-height: 1.5em;
+  padding-left: 0.5em;
 }
 .Main h3 {
   color: var(--color-white);
