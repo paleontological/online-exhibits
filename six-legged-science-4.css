@@ -11,8 +11,8 @@
 }
 /* Exhibit Nav */
 #sub-nav {
-  background-color: var(--color-green-light);
-  border-bottom: 1px solid var(--color-green-dark);
+  background-color: var(--color-blue-light);
+  border-bottom: 1px solid var(--color-blue-dark);
   font-size: 1em;
   font-weight: 800;
   line-height: 1em;
@@ -36,7 +36,7 @@
 }
 #sub-nav li:hover,
 .active li {
-  background: var(--color-red-light);
+  background: var(--color-blue-lighter);
   color: var(--color-white);
 }
 /* End Exhibit Nav */
