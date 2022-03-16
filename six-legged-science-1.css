@@ -111,6 +111,9 @@
   font-size: 0.75em;
   font-weight: 500;
 }
+.Main .row .sqs-row .image-caption p {
+  color: var(--color-white);
+}
 .Main
   .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element {
   border: 2px solid var(--color-green-dark);
