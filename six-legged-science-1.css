@@ -101,7 +101,7 @@
 .Main p:nth-child(4) strong {
   color: var(--color-green-light);
 }
-#yui_3_17_2_1_1647452870448_347 {
+.Main .row .sqs-row {
   background-color: var(--color-green-dark);
   color: var(--color-white);
   padding: 1em 0;
