@@ -101,8 +101,7 @@
 .Main p:nth-child(4) strong {
   color: var(--color-green-light);
 }
-.Main .sqs-row:nth-of-type(2),
-.Main .sqs-row:nth-of-type(4) {
+#yui_3_17_2_1_1647452870448_347 {
   background-color: var(--color-green-dark);
   color: var(--color-white);
   padding: 1em 0;
