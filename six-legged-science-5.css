@@ -47,7 +47,7 @@
   text-rendering: optimizeLegibility;
 }
 .Main h1 {
-  color: var(--color-blue-light);
+  color: var(--color-red-mid);
   font-family: var(--font-title);
   font-size: 15em;
   letter-spacing: 0;
@@ -63,7 +63,7 @@
 }
 .Main h3 {
   color: var(--color-white);
-  background: var(--color-blue-mid);
+  background: var(--color-red-dark);
   font-family: var(--font-did-you-know);
   font-size: 2em;
   font-weight: bold;
@@ -82,11 +82,11 @@
   color: var(--color-white);
 }
 .Main p strong {
-  color: var(--color-blue-light);
+  color: var(--color-red-mid);
 }
 .Main .sqs-row:nth-of-type(5) {
-  background-color: var(--color-blue-dark);
-  color: var(--color-white);
+  background-color: var(--color-white);
+  color: var(--color-black);
   padding: 1em 0;
 }
 .Main .image-caption p {
@@ -95,7 +95,7 @@
   font-weight: 500;
 }
 .Main .image-caption strong {
-  color: var(--color-blue-light);
+  color: var(--color-red-mid);
 }
 .Main
   .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element {
@@ -111,8 +111,8 @@
 }
 .Main blockquote {
   border: none;
-  color: var(--color-black);
-  background: var(--color-blue-lighter);
+  color: var(--color-white);
+  background: var(--color-red-light);
   font-family: var(--font-title);
   font-size: 1.25em;
   padding: 2em;
