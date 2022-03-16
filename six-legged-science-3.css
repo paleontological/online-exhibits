@@ -60,6 +60,7 @@
   font-family: var(--font-paragraph);
   font-size: 2em;
   line-height: 1em;
+  padding-left: 0.5em;
 }
 .Main h3 {
   color: var(--color-white);
@@ -82,7 +83,7 @@
   color: var(--color-white);
 }
 .Main p strong {
-  color: var(--color-green-light);
+  color: var(--color-green-dark);
 }
 .Main .sqs-row:nth-of-type(7),
 .Main .sqs-row:nth-of-type(10),
