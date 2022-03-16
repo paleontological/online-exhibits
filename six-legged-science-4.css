@@ -36,7 +36,7 @@
 }
 #sub-nav li:hover,
 .active li {
-  background: var(--color-blue-lighter);
+  background: var(--color-blue-dark);
   color: var(--color-white);
 }
 /* End Exhibit Nav */
@@ -85,11 +85,9 @@
 .Main p strong {
   color: var(--color-blue-light);
 }
-.Main .sqs-row:nth-of-type(7),
-.Main .sqs-row:nth-of-type(10),
-.Main .sqs-row:nth-of-type(11) {
-  background-color: var(--color-white);
-  color: var(--color-black);
+.Main .sqs-row:nth-of-type(5) {
+  background-color: var(--color-blue-dark);
+  color: var(--color-white);
   padding: 1em 0;
 }
 .Main .image-caption p {
