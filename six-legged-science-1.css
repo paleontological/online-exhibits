@@ -107,7 +107,7 @@
   padding: 1em 0;
 }
 .Main .image-caption p {
-  color: var(--color-white);
+  color: var(--color-black);
   font-size: 0.75em;
   font-weight: 500;
 }
