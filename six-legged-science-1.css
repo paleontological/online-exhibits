@@ -3,11 +3,14 @@
   --color-green-dark: #29503d;
   --color-green-light: #87b14b;
   --color-orange-light: #e0a770;
+  --color-orange-mid: #fab216;
   --color-red-light: #b16263;
   --color-red-lighter: #ef7656;
+  --color-red-mid: #d12828;
   --color-white: #fff;
   --font-title: "bee", sans-serif;
   --font-paragraph: "trade-gothic-next", sans-serif;
+  --font-did-you-know: "sunflower", sans-serif;
 }
 /* Exhibit Nav */
 #sub-nav {
@@ -41,11 +44,30 @@
 }
 /* End Exhibit Nav */
 
+.Intro {
+  background: var(--color-white)
+}
+.Intro h1 strong {
+  color: var(--color-orange-mid);
+}
+.Intro h3 {
+  font-family: var(--font-did-you-know);
+  color: var(--color-red-mid);
+  font-size: 2.5em;
+}
+.Intro p {
+  font-size: 2em;
+  font-family: var(--font-paragraph);
+  color: var(--color-green-dark);
+}
+.Intro em {
+  
+}
 .Main-content {
   padding: 5% 2% 1% 2%;
   text-rendering: optimizeLegibility;
 }
-.Main h1 {
+.Main h1, .Intro h1 {
   color: var(--color-green-dark);
   font-family: var(--font-title);
   font-size: 15em;
