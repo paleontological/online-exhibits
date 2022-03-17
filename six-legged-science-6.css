@@ -1,53 +1,123 @@
 :root {
-    --color-black: #000;
-    --color-blue-dark: #043047;
-    --color-blue-mid: #117bbc;
-    --color-blue-light: #8fcbe8;
-    --color-blue-lighter: #c5e2f3;
-    --color-charcoal: #231f20;
-    --color-green-dark: #29503d;
-    --color-green-light: #87b14b;
-    --color-green-mid: #4c9879;
-    --color-tan: #c7b789;
-    --color-orange-dark: #f07827;
-    --color-orange-light: #e0a770;
-    --color-orange-mid: #fab216;
-    --color-red-dark: #6c0d0f;
-    --color-red-light: #b16263;
-    --color-red-lighter: #ef7656;
-    --color-red-mid: #d12828;
-    --color-white: #fff;
-    --font-title: "bee", sans-serif;
-    --font-paragraph: "trade-gothic-next", sans-serif;
-  }
-  /* Exhibit Nav */
-  #sub-nav {
-    background-color: var(--color-green-light);
-    border-bottom: 1px solid var(--color-green-dark);
-    font-size: 1em;
-    font-weight: 800;
-    line-height: 1em;
-    width: 100%;
-  }
-  #sub-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding-left: 0;
-    text-align: center;
-  }
-  #sub-nav li {
-    color: var(--color-white);
-    display: inline-block;
-    font-family: var(--font-paragraph);
-    margin: 0;
-    padding: 1.5vw 0.75vw;
-    text-transform: uppercase;
-    transition: background 1s, color 1s;
-    vertical-align: middle;
-  }
-  #sub-nav li:hover,
-  .active li {
-    background: var(--color-red-light);
-    color: var(--color-white);
-  }
-  /* End Exhibit Nav */
+  --color-black: #000;
+  --color-red-dark: #6c0d0f;
+  --color-red-light: #b16263;
+  --color-red-lighter: #ef7656;
+  --color-red-mid: #d12828;
+  --color-white: #fff;
+  --font-title: "bee", sans-serif;
+  --font-paragraph: "trade-gothic-next", sans-serif;
+  --font-did-you-know: "sunflower", sans-serif;
+}
+/* Exhibit Nav */
+#sub-nav {
+  background-color: var(--color-red-light);
+  border-bottom: 1px solid var(--color-red-dark);
+  font-size: 1em;
+  font-weight: 800;
+  line-height: 1em;
+  width: 100%;
+}
+#sub-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  text-align: center;
+}
+#sub-nav li {
+  color: var(--color-white);
+  display: inline-block;
+  font-family: var(--font-paragraph);
+  margin: 0;
+  padding: 1.5vw 0.75vw;
+  text-transform: uppercase;
+  transition: background 1s, color 1s;
+  vertical-align: middle;
+}
+#sub-nav li:hover,
+.active li {
+  background: var(--color-red-dark);
+  color: var(--color-white);
+}
+/* End Exhibit Nav */
+
+.Main-content {
+  padding: 5% 2% 1% 2%;
+  text-rendering: optimizeLegibility;
+}
+.Main h1 {
+  color: var(--color-red-dark);
+  font-family: var(--font-title);
+  font-size: 15em;
+  letter-spacing: 0;
+  line-height: 0.75em;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.Main h2 {
+  color: var(--color-white);
+  background: var(--color-red-light);
+  font-family: var(--font-paragraph);
+  font-size: 2em;
+  line-height: 1.5em;
+  padding-left: 0.5em;
+}
+.Main h3 {
+  color: var(--color-white);
+  background: var(--color-red-dark);
+  font-family: var(--font-did-you-know);
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1.5em;
+  padding-left: 0.5em;
+  position: relative;
+  top: 2em;
+  z-index: 999;
+  transform: rotate(-5deg);
+}
+.Main p {
+  font-family: var(--font-paragraph);
+  font-weight: 700;
+}
+.Main .image-caption {
+  color: var(--color-white);
+}
+.Main p strong {
+  color: var(--color-red-dark);
+}
+.Main .sqs-row:nth-of-type(7),
+.Main .sqs-row:nth-of-type(10),
+.Main .sqs-row:nth-of-type(11) {
+  background-color: var(--color-white);
+  color: var(--color-black);
+  padding: 1em 0;
+}
+.Main .image-caption p {
+  color: var(--color-black);
+  font-size: 0.75em;
+  font-weight: 500;
+}
+.Main .image-caption strong {
+  color: var(--color-red-dark);
+}
+.Main
+  .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element {
+  border: 2px solid var(--color-green-dark);
+  background: var(--color-green-light);
+  color: var(--color-green-dark);
+  font-family: var(--font-paragraph);
+}
+.Main
+  .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element:hover {
+  background: var(--color-green-dark);
+  color: var(--color-white);
+}
+.Main blockquote {
+  border: none;
+  color: var(--color-black);
+  background: var(--color-red-light);
+  font-family: var(--font-title);
+  font-size: 1.25em;
+  padding: 2em;
+  transform: rotate(-5deg);
+}
