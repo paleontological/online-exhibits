@@ -61,13 +61,13 @@
   font-size: 2em;
   font-family: var(--font-paragraph);
   color: var(--color-green-dark);
-  
 }
 .Main-content {
   padding: 0 2% 1% 2%;
   text-rendering: optimizeLegibility;
 }
-.Main h1, .Intro h1 {
+.Main h1,
+.Intro h1 {
   color: var(--color-green-dark);
   font-family: var(--font-title);
   font-size: 15em;
