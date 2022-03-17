@@ -86,8 +86,7 @@
   color: var(--color-orange-mid);
 }
 .Main .sqs-row:nth-of-type(7),
-.Main .sqs-row:nth-of-type(10),
-.Main .sqs-row:nth-of-type(11) {
+.Main .sqs-row:nth-of-type(9) {
   background-color: var(--color-white);
   color: var(--color-black);
   padding: 1em 0;
@@ -126,4 +125,13 @@
   font-size: 1.25em;
   padding: 2em;
   transform: rotate(-5deg);
+}
+.Main hr {
+    background: var(--color-orange-mid);
+}
+#block-yui_3_17_2_1_1646944540747_3194 {
+    background: var(--color-white);
+}
+#block-yui_3_17_2_1_1646944540747_3194 h1 {
+    color: var(--color-orange-mid);
 }
