@@ -55,11 +55,13 @@
   font-family: var(--font-did-you-know);
   color: var(--color-red-mid);
   font-size: 2.5em;
+  text-shadow: 1px 1px 1px var(--color-black);
 }
 .Intro p {
   font-size: 2em;
   font-family: var(--font-paragraph);
   color: var(--color-green-dark);
+  
 }
 .Main-content {
   padding: 0 2% 1% 2%;
