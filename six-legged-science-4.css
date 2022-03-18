@@ -63,11 +63,11 @@
   line-height: 0.75em;
 }
 .Main h2:nth-child(1) {
-    background: var(--color-blue-light);
-    color: var(--color-blue-dark);
+  background: var(--color-blue-light);
+  color: var(--color-blue-dark);
   line-height: 1.5em;
-    padding-left: 0.5em;
-    position: relative;
+  padding-left: 0.5em;
+  position: relative;
   top: 1em;
   z-index: 999;
 }
