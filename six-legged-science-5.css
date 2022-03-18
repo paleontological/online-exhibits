@@ -65,7 +65,7 @@
   padding-left: 0.5em;
 }
 .Main h2:nth-child(1) {
-    padding-right: 0.5em;
+  padding-right: 0.5em;
 }
 .Main h3 {
   color: var(--color-white);
@@ -100,6 +100,9 @@
   color: var(--color-white);
   font-size: 1.5vh;
   font-weight: 500;
+}
+.Main .sqs-row:nth-of-type(5) .image-caption p {
+  color: var(--color-black);
 }
 .Main .image-caption strong {
   color: var(--color-red-mid);
