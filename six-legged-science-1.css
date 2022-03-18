@@ -120,7 +120,7 @@
 .Main p:nth-child(4) strong {
   color: var(--color-green-light);
 }
-.Main .row .sqs-row {
+.Main .row .sqs-row:not(.Main .row .sqs-row:last-of-type) {
   background-color: var(--color-green-dark);
   color: var(--color-white);
   padding: 1em 0;
