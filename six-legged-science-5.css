@@ -64,6 +64,9 @@
   line-height: 1.5em;
   padding-left: 0.5em;
 }
+.Main h2:nth-child(1) {
+    padding-right: 0.5em;
+}
 .Main h3 {
   color: var(--color-white);
   background: var(--color-red-dark);
