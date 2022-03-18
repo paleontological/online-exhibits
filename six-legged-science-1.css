@@ -16,9 +16,9 @@
 #sub-nav {
   background-color: var(--color-green-light);
   border-bottom: 1px solid var(--color-green-dark);
-  font-size: 1em;
+  font-size: 2vh;
   font-weight: 800;
-  line-height: 1em;
+  line-height: 1.2em;
   width: 100%;
 }
 #sub-nav ul {
@@ -45,7 +45,11 @@
 /* End Exhibit Nav */
 
 .Intro {
-  background: var(--color-white);
+  background-color: var(--color-white);
+  background-image: url("https://static1.squarespace.com/static/5d3cbf70d8a40e00011d021a/t/6234966af2771916ab817263/1647613546089/six-legged-science-logo-insects.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
   border-bottom: 1px solid var(--color-black);
 }
 .Intro h1 strong {
@@ -54,13 +58,14 @@
 .Intro h3 {
   font-family: var(--font-did-you-know);
   color: var(--color-red-mid);
-  font-size: 2.5em;
+  font-size: 5vh;
   text-shadow: 1px 1px 1px var(--color-black);
 }
 .Intro p {
-  font-size: 2em;
+  font-size: 4vh;
   font-family: var(--font-paragraph);
   color: var(--color-green-dark);
+  line-height: 1.2em;
 }
 .Main-content {
   padding: 0 2% 1% 2%;
@@ -70,7 +75,7 @@
 .Intro h1 {
   color: var(--color-green-dark);
   font-family: var(--font-title);
-  font-size: 15em;
+  font-size: 25vh;
   letter-spacing: 0;
   line-height: 0.75em;
   margin-bottom: 0;
@@ -80,7 +85,7 @@
   color: var(--color-white);
   background-color: var(--color-green-light);
   font-family: var(--font-paragraph);
-  font-size: 2em;
+  font-size: 5vh;
   padding-left: 0.5em;
   position: relative;
   top: 1em;
