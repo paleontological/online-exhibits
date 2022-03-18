@@ -59,7 +59,7 @@
   background: var(--color-green-light);
   font-family: var(--font-paragraph);
   font-size: 5vh;
-  line-height: 1em;
+  line-height: 1.5em;
   padding-left: 0.5em;
 }
 .Main h3 {
@@ -86,12 +86,19 @@
   color: var(--color-green-dark);
   font-weight: 700;
 }
-.Main .sqs-row:nth-of-type(7),
-.Main .sqs-row:nth-of-type(10),
-.Main .sqs-row:nth-of-type(11) {
-  background-color: var(--color-white);
-  color: var(--color-black);
+.Main .sqs-row:nth-of-type(4),
+.Main .sqs-row:nth-of-type(7) {
+  background-color: var(--color-green-dark);
+  color: var(--color-white);
   padding: 1em 0;
+}
+.Main .sqs-row:nth-of-type(4) strong,
+.Main .sqs-row:nth-of-type(7) strong {
+  color: var(--color-green-light);
+}
+.Main .sqs-row:nth-of-type(4) .image-caption p,
+.Main .sqs-row:nth-of-type(7) .image-caption p {
+  color: var(--color-white);
 }
 .Main .image-caption p {
   color: var(--color-black);
