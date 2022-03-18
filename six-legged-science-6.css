@@ -62,6 +62,11 @@
   line-height: 1.5em;
   padding-left: 0.5em;
 }
+#block-yui_3_17_2_1_1647282085318_9167 h2 {
+  position: relative;
+  top: 1em;
+  z-index: 999;
+}
 .Main h3 {
   color: var(--color-white);
   background: var(--color-red-dark);
@@ -112,16 +117,16 @@
   .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element,
 .Main
   .sqs-block-button-element--small.sqs-button-element--tertiary.sqs-block-button-element {
-  border: 2px solid var(--color-red-dark);
-  background: var(--color-red-light);
+  border: 2px solid var(--color-red-light);
+  background: var(--color-red-dark);
   color: var(--color-white);
   font-family: var(--font-paragraph);
 }
 .Main
   .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element:hover,
 .Main
-  .sqs-block-button-element--small.sqs-button-element--tertiary.sqs-block-button-element {
-  background: var(--color-red-dark);
+  .sqs-block-button-element--small.sqs-button-element--tertiary.sqs-block-button-element:hover {
+  background: var(--color-red-light);
   color: var(--color-white);
 }
 .Main blockquote {
