@@ -39,7 +39,7 @@
 }
 #sub-nav li:hover,
 .active li {
-  background: var(--color-red-light);
+  background: var(--color-orange-mid);
   color: var(--color-white);
 }
 /* End Exhibit Nav */
