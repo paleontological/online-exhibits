@@ -138,6 +138,9 @@
 .Main .row .sqs-row .image-caption p {
   color: var(--color-white);
 }
+#block-yui_3_17_2_1_1647634171379_11066 .image-caption {
+  text-align: right;
+}
 .Main
   .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element {
   border: 2px solid var(--color-green-dark);
