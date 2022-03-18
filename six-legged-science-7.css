@@ -89,7 +89,7 @@
   color: var(--color-green-light);
   font-weight: 700;
 }
-.Main a {
+.Main a[target="_blank"] {
   color: var(--color-green-light)!important;
 }
 .Main .image-caption p {
