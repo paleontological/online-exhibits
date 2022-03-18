@@ -101,14 +101,16 @@
   color: var(--color-orange-mid);
 }
 .Main
-  .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element {
+  .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element,
+.sqs-block-button-element--small.sqs-button-element--tertiary.sqs-block-button-element {
   border: 2px solid var(--color-orange-dark);
   background: var(--color-orange-mid);
   color: var(--color-white);
   font-family: var(--font-paragraph);
 }
 .Main
-  .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element:hover {
+  .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element:hover,
+.sqs-block-button-element--small.sqs-button-element--tertiary.sqs-block-button-element:hover {
   background: var(--color-orange-dark);
   color: var(--color-white);
 }
