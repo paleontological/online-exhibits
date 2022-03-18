@@ -62,6 +62,13 @@
   line-height: 1.5em;
   padding-left: 0.5em;
 }
+.Main #block-yui_3_17_2_1_1647276644922_7430 h2,
+.Main #block-yui_3_17_2_1_1647276644922_26277 h2 {
+  background: var(--color-green-mid);
+  position: relative;
+  top: 1em;
+  z-index: 999;
+}
 .Main h3 {
   color: var(--color-white);
   background: var(--color-green-dark);
@@ -79,11 +86,14 @@
   font-family: var(--font-paragraph);
   font-weight: 500;
 }
+.Main a[target="_blank"] {
+  color: var(--color-green-mid)!important;
+}
 .Main .image-caption {
   color: var(--color-white);
 }
 .Main p strong {
-  color: var(--color-green-dark);
+  color: var(--color-green-mid);
   font-weight: 700;
 }
 .Main .sqs-row:nth-of-type(4),
