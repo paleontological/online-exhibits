@@ -66,6 +66,7 @@
   color: var(--color-white);
   font-family: var(--font-paragraph);
   font-size: 5vh;
+  line-height: 1.2em;
 }
 .Main h3 {
   color: var(--color-white);
@@ -96,16 +97,27 @@
 .Main .image-caption strong {
   color: var(--color-green-light);
 }
+.Main .sqs-row:nth-of-type(5) {
+  background-color: var(--color-green-dark);
+  color: var(--color-white);
+  padding: 1em 0;
+}
+.Main .sqs-row:nth-of-type(5) strong {
+  color: var(--color-green-light);
+}
+.Main .sqs-row:nth-of-type(5) .image-caption p {
+  color: var(--color-white);
+}
 .Main
-  .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element {
-  border: 2px solid var(--color-green-dark);
-  background: var(--color-green-light);
-  color: var(--color-green-dark);
+  .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element, .Main .sqs-block-button-element--small.sqs-button-element--tertiary.sqs-block-button-element {
+  border: 2px solid var(--color-green-light);
+  background: var(--color-green-dark);
+  color: var(--color-white);
   font-family: var(--font-paragraph);
 }
 .Main
-  .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element:hover {
-  background: var(--color-green-dark);
+  .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element:hover, .Main .sqs-block-button-element--small.sqs-button-element--tertiary.sqs-block-button-element:hover {
+  background: var(--color-green-light);
   color: var(--color-white);
 }
 .Main blockquote {
