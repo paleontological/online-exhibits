@@ -62,10 +62,15 @@
   text-shadow: 1px 1px 1px var(--color-black);
 }
 .Intro p {
-  font-size: 4vh;
+  font-size: 3vh;
   font-family: var(--font-paragraph);
   color: var(--color-green-dark);
   line-height: 1.2em;
+  font-weight: 500;
+}
+.Intro p strong {
+  font-size: 4vh;
+  font-weight: 700;
 }
 .Main-content {
   padding: 0 2% 1% 2%;
