@@ -92,8 +92,7 @@
   font-weight: 700;
 }
 .Main .sqs-row:nth-of-type(5),
-.Main .sqs-row:nth-of-type(8),
-.Main .sqs-col .sqs-col-12 {
+.Main .sqs-row:nth-of-type(8) {
   background-color: var(--color-red-dark);
   color: var(--color-white);
   padding: 1em 0;
@@ -101,8 +100,7 @@
 .Main .sqs-row:nth-of-type(5) strong,
 .Main .sqs-col .sqs-col-12 strong,
 .Main .sqs-row:nth-of-type(5) .image-caption p,
-.Main .sqs-row:nth-of-type(8) .image-caption p,
-.Main .sqs-col .sqs-col-12 .image-caption p {
+.Main .sqs-row:nth-of-type(8) .image-caption p {
   color: var(--color-white);
 }
 .Main .image-caption p {
