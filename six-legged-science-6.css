@@ -86,12 +86,19 @@
   color: var(--color-red-dark);
   font-weight: 700;
 }
-.Main .sqs-row:nth-of-type(7),
-.Main .sqs-row:nth-of-type(10),
-.Main .sqs-row:nth-of-type(11) {
-  background-color: var(--color-white);
-  color: var(--color-black);
+.Main .sqs-row:nth-of-type(5),
+.Main .sqs-row:nth-of-type(8),
+.Main .sqs-col .sqs-col-12 {
+  background-color: var(--color-red-dark);
+  color: var(--color-white);
   padding: 1em 0;
+}
+.Main .sqs-row:nth-of-type(5) strong,
+.Main .sqs-col .sqs-col-12 strong,
+.Main .sqs-row:nth-of-type(5) .image-caption p,
+.Main .sqs-row:nth-of-type(8) .image-caption p,
+.Main .sqs-col .sqs-col-12 .image-caption p {
+  color: var(--color-white);
 }
 .Main .image-caption p {
   color: var(--color-black);
@@ -102,15 +109,19 @@
   color: var(--color-red-dark);
 }
 .Main
-  .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element {
-  border: 2px solid var(--color-green-dark);
-  background: var(--color-green-light);
-  color: var(--color-green-dark);
+  .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element,
+.Main
+  .sqs-block-button-element--small.sqs-button-element--tertiary.sqs-block-button-element {
+  border: 2px solid var(--color-red-dark);
+  background: var(--color-red-light);
+  color: var(--color-white);
   font-family: var(--font-paragraph);
 }
 .Main
-  .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element:hover {
-  background: var(--color-green-dark);
+  .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element:hover,
+.Main
+  .sqs-block-button-element--small.sqs-button-element--tertiary.sqs-block-button-element {
+  background: var(--color-red-dark);
   color: var(--color-white);
 }
 .Main blockquote {
