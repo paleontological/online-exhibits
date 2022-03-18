@@ -94,7 +94,7 @@
 .Main h3 {
   color: var(--color-green-light);
   font-family: var(--font-paragraph);
-  font-size: 1.5em;
+  font-size: 3vh;
   font-weight: bold;
 }
 .Main p {
@@ -124,7 +124,7 @@
 }
 .Main .image-caption p {
   color: var(--color-black);
-  font-size: 0.75em;
+  font-size: 1.5vh;
   font-weight: 500;
 }
 .Main .row .sqs-row .image-caption p {
