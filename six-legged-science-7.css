@@ -82,10 +82,11 @@
 }
 .Main p {
   font-family: var(--font-paragraph);
-  font-weight: 700;
+  font-weight: 500;
 }
 .Main p strong {
   color: var(--color-green-light);
+  font-weight: 700;
 }
 .Main .image-caption p {
   color: var(--color-white);

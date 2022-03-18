@@ -99,6 +99,9 @@
 }
 .Main p {
   font-family: var(--font-paragraph);
+  font-weight: 500;
+}
+.Main p strong {
   font-weight: 700;
 }
 .Main blockquote {

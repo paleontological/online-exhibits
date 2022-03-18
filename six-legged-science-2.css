@@ -77,13 +77,14 @@
 }
 .Main p {
   font-family: var(--font-paragraph);
-  font-weight: 700;
+  font-weight: 500;
 }
 .Main .image-caption {
   color: var(--color-white);
 }
 .Main p strong {
   color: var(--color-orange-mid);
+  font-weight: 700;
 }
 .Main .sqs-row:nth-of-type(7),
 .Main .sqs-row:nth-of-type(9) {
