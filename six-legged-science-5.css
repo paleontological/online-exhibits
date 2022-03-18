@@ -103,14 +103,14 @@
 }
 .Main
   .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element {
-  border: 2px solid var(--color-blue-dark);
-  background: var(--color-blue-light);
-  color: var(--color-blue-dark);
+  border: 2px solid var(--color-red-dark);
+  background: var(--color-red-light);
+  color: var(--color-white);
   font-family: var(--font-paragraph);
 }
 .Main
   .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element:hover {
-  background: var(--color-blue-dark);
+  background: var(--color-red-dark);
   color: var(--color-white);
 }
 .Main blockquote {
