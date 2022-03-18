@@ -89,6 +89,9 @@
   color: var(--color-green-light);
   font-weight: 700;
 }
+.Main a {
+  color: var(--color-green-light)!important;
+}
 .Main .image-caption p {
   color: var(--color-white);
   font-size: 1.5vh;
