@@ -2,16 +2,15 @@
   --color-black: #000;
   --color-green-dark: #29503d;
   --color-green-light: #87b14b;
-  --color-orange-light: #e0a770;
   --color-orange-mid: #fab216;
-  --color-red-light: #b16263;
-  --color-red-lighter: #ef7656;
   --color-red-mid: #d12828;
+  --color-tan: #c7b789;
   --color-white: #fff;
   --font-title: "bee", sans-serif;
   --font-paragraph: "trade-gothic-next", sans-serif;
   --font-did-you-know: "sunflower", sans-serif;
 }
+
 /* Exhibit Nav */
 #sub-nav {
   background-color: var(--color-green-light);
@@ -21,12 +20,14 @@
   line-height: 1.2em;
   width: 100%;
 }
+
 #sub-nav ul {
   list-style-type: none;
   margin: 0;
   padding-left: 0;
   text-align: center;
 }
+
 #sub-nav li {
   color: var(--color-white);
   display: inline-block;
@@ -37,11 +38,13 @@
   transition: background 1s, color 1s;
   vertical-align: middle;
 }
+
 #sub-nav li:hover,
 .active li {
   background: var(--color-orange-mid);
   color: var(--color-white);
 }
+
 /* End Exhibit Nav */
 
 .Intro {
@@ -52,15 +55,18 @@
   background-size: contain;
   border-bottom: 1px solid var(--color-black);
 }
+
 .Intro h1 strong {
   color: var(--color-orange-mid);
 }
+
 .Intro h3 {
   font-family: var(--font-did-you-know);
   color: var(--color-red-mid);
   font-size: 5vh;
   text-shadow: 1px 1px 1px var(--color-black);
 }
+
 .Intro p {
   font-size: 3vh;
   font-family: var(--font-paragraph);
@@ -68,14 +74,17 @@
   line-height: 1.2em;
   font-weight: 500;
 }
+
 .Intro p strong {
   font-size: 4vh;
   font-weight: 700;
 }
+
 .Main-content {
   padding: 0 2% 1% 2%;
   text-rendering: optimizeLegibility;
 }
+
 .Main h1,
 .Intro h1 {
   color: var(--color-green-dark);
@@ -86,6 +95,7 @@
   margin-bottom: 0;
   text-transform: uppercase;
 }
+
 .Main h2 {
   color: var(--color-white);
   background-color: var(--color-green-light);
@@ -94,6 +104,7 @@
   padding-left: 0.5em;
 
 }
+
 .Main h3 {
   color: var(--color-white);
   background: var(--color-green-dark);
@@ -107,13 +118,16 @@
   z-index: 999;
   transform: rotate(-5deg);
 }
+
 .Main p {
   font-family: var(--font-paragraph);
   font-weight: 500;
 }
+
 .Main p strong {
   font-weight: 700;
 }
+
 .Main blockquote {
   border: none;
   color: var(--color-green-dark);
@@ -123,29 +137,27 @@
   padding: 2em;
   transform: rotate(-5deg);
 }
-.Main .image-caption {
-  color: var(--color-white);
-}
+
 .Main p strong {
-  color: var(--color-orange-light);
+  color: var(--color-green-dark);
 }
+
 .Main .image-caption p {
   color: var(--color-black);
   font-size: 1.5vh;
   font-weight: 500;
 }
-.Main .row .sqs-row .image-caption p {
-  color: var(--color-white);
-}
-.Main
-  .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element {
+
+.Main .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element,
+.Main .sqs-block-button-element--small.sqs-button-element--tertiary.sqs-block-button-element {
   border: 2px solid var(--color-green-dark);
   background: var(--color-green-light);
   color: var(--color-green-dark);
   font-family: var(--font-paragraph);
 }
-.Main
-  .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element:hover {
+
+.Main .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element:hover,
+.Main .sqs-block-button-element--small.sqs-button-element--tertiary.sqs-block-button-element:hover {
   background: var(--color-green-dark);
   color: var(--color-white);
 }
