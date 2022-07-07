@@ -4,9 +4,7 @@
   --color-green-light: #87b14b;
   --color-orange-light: #e0a770;
   --color-orange-mid: #fab216;
-  --color-red-light: #b16263;
-  --color-red-lighter: #ef7656;
-  --color-red-mid: #d12828;
+  --color-tan: #c7b789;
   --color-white: #fff;
   --font-title: "bee", sans-serif;
   --font-paragraph: "trade-gothic-next", sans-serif;
@@ -44,40 +42,11 @@
 }
 /* End Exhibit Nav */
 
-.Intro {
-  background-color: var(--color-white);
-  background-image: url("https://static1.squarespace.com/static/5d3cbf70d8a40e00011d021a/t/6235052c96134e7a9e9157db/1647641900663/six-legged-science-header-insects.jpg");
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: contain;
-  border-bottom: 1px solid var(--color-black);
-}
-.Intro h1 strong {
-  color: var(--color-orange-mid);
-}
-.Intro h3 {
-  font-family: var(--font-did-you-know);
-  color: var(--color-red-mid);
-  font-size: 5vh;
-  text-shadow: 1px 1px 1px var(--color-black);
-}
-.Intro p {
-  font-size: 3vh;
-  font-family: var(--font-paragraph);
-  color: var(--color-green-dark);
-  line-height: 1.2em;
-  font-weight: 500;
-}
-.Intro p strong {
-  font-size: 4vh;
-  font-weight: 700;
-}
 .Main-content {
   padding: 0 2% 1% 2%;
   text-rendering: optimizeLegibility;
 }
-.Main h1,
-.Intro h1 {
+.Main h1 {
   color: var(--color-green-dark);
   font-family: var(--font-title);
   font-size: 30vh;
@@ -85,6 +54,9 @@
   line-height: 0.75em;
   margin-bottom: 0;
   text-transform: uppercase;
+}
+.Main .sqs-row:nth-of-type(8) h1 {
+  color: var(--color-tan);
 }
 .Main h2 {
   color: var(--color-white);
@@ -102,6 +74,17 @@
   font-size: 3vh;
   font-weight: bold;
 }
+.Main .sqs-row:nth-of-type(9) h3,
+.Main .sqs-row:nth-of-type(10) h3,
+.Main .sqs-row:nth-of-type(11) h3 {
+  color: var(--color-green-light);
+  background: var(--color-green-dark);
+  font-family: var(--font-did-you-know);
+  font-size: 4vh;
+  font-weight: bold;
+  line-height: 1.5em;
+  padding-left: 0.5em;
+}
 .Main p {
   font-family: var(--font-paragraph);
   font-weight: 500;
@@ -109,23 +92,44 @@
 .Main p strong {
   font-weight: 700;
 }
-.Main blockquote {
+.Main .sqs-row:nth-of-type(8) p strong,
+.Main .sqs-row:nth-of-type(9) p strong,
+.Main .sqs-row:nth-of-type(10) p strong,
+.Main .sqs-row:nth-of-type(11) p strong {
+  color: var(--color-tan);
+}
+.Main .sqs-row:nth-of-type(8) blockquote strong,
+.Main .sqs-row:nth-of-type(9) blockquote strong,
+.Main .sqs-row:nth-of-type(10) blockquote strong,
+.Main .sqs-row:nth-of-type(11) blockquote strong {
+  color: var(--color-green-dark);
+}
+.Main .sqs-row:nth-of-type(8) blockquote,
+.Main .sqs-row:nth-of-type(9) blockquote,
+.Main .sqs-row:nth-of-type(10) blockquote,
+.Main .sqs-row:nth-of-type(11) blockquote {
   border: none;
   color: var(--color-green-dark);
+  background: var(--color-tan);
+  font-family: var(--font-title);
+  font-size: 2.5vh;
+  padding: 2em;
 }
 .Main .image-caption {
   color: var(--color-white);
 }
-.Main p:nth-child(2) strong {
-  color: var(--color-red-lighter);
+.Main p strong {
+  color: var(--color-green-dark);
 }
-.Main p:nth-child(3) strong {
-  color: var(--color-orange-light);
+.Main .sqs-row:nth-of-type(8),
+.Main .sqs-row:nth-of-type(9),
+.Main .sqs-row:nth-of-type(10),
+.Main .sqs-row:nth-of-type(11) {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding: 1em 0;
 }
-.Main p:nth-child(4) strong {
-  color: var(--color-green-light);
-}
-.Main .row .sqs-row:not(.Main .row .sqs-row:last-of-type) {
+.Main .sqs-row:nth-of-type(18) {
   background-color: var(--color-green-dark);
   color: var(--color-white);
   padding: 1em 0;
@@ -138,9 +142,7 @@
 .Main .row .sqs-row .image-caption p {
   color: var(--color-white);
 }
-#block-yui_3_17_2_1_1647634171379_11066 .image-caption {
-  text-align: right;
-}
+
 .Main
   .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element {
   border: 2px solid var(--color-green-dark);
