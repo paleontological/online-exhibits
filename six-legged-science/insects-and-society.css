@@ -1,0 +1,138 @@
+:root {
+  --color-black: #000;
+  --color-red-dark: #6c0d0f;
+  --color-red-light: #b16263;
+  --color-red-lighter: #ef7656;
+  --color-red-mid: #d12828;
+  --color-white: #fff;
+  --font-title: "bee", sans-serif;
+  --font-paragraph: "trade-gothic-next", sans-serif;
+  --font-did-you-know: "sunflower", sans-serif;
+}
+/* Exhibit Nav */
+#sub-nav {
+  background-color: var(--color-red-light);
+  border-bottom: 1px solid var(--color-red-dark);
+  font-size: 2vh;
+  font-weight: 800;
+  line-height: 1em;
+  width: 100%;
+}
+#sub-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  text-align: center;
+}
+#sub-nav li {
+  color: var(--color-white);
+  display: inline-block;
+  font-family: var(--font-paragraph);
+  margin: 0;
+  padding: 1.5vw 0.75vw;
+  text-transform: uppercase;
+  transition: background 1s, color 1s;
+  vertical-align: middle;
+}
+#sub-nav li:hover,
+.active li {
+  background: var(--color-red-dark);
+  color: var(--color-white);
+}
+/* End Exhibit Nav */
+
+.Main-content {
+  padding: 5% 2% 1% 2%;
+  text-rendering: optimizeLegibility;
+}
+.Main h1 {
+  color: var(--color-red-dark);
+  font-family: var(--font-title);
+  font-size: 30vh;
+  letter-spacing: 0;
+  line-height: 0.75em;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.Main h2 {
+  color: var(--color-white);
+  background: var(--color-red-light);
+  font-family: var(--font-paragraph);
+  font-size: 5vh;
+  line-height: 1.5em;
+  padding-left: 0.5em;
+}
+#block-yui_3_17_2_1_1647282085318_9167 h2 {
+  position: relative;
+  top: 1em;
+  z-index: 999;
+}
+.Main h3 {
+  color: var(--color-white);
+  background: var(--color-red-dark);
+  font-family: var(--font-did-you-know);
+  font-size: 4vh;
+  font-weight: bold;
+  line-height: 1.5em;
+  padding-left: 0.5em;
+  position: relative;
+  top: 2em;
+  z-index: 999;
+  transform: rotate(-5deg);
+}
+.Main p {
+  font-family: var(--font-paragraph);
+  font-weight: 500;
+}
+.Main .image-caption {
+  color: var(--color-white);
+}
+.Main p strong {
+  color: var(--color-red-dark);
+  font-weight: 700;
+}
+.Main .sqs-row:nth-of-type(5),
+.Main .sqs-row:nth-of-type(8) {
+  background-color: var(--color-red-dark);
+  color: var(--color-white);
+  padding: 1em 0;
+}
+.Main .sqs-row:nth-of-type(5) strong,
+.Main .sqs-col .sqs-col-12 strong,
+.Main .sqs-row:nth-of-type(5) .image-caption p,
+.Main .sqs-row:nth-of-type(8) .image-caption p {
+  color: var(--color-white);
+}
+.Main .image-caption p {
+  color: var(--color-black);
+  font-size: 1.5vh;
+  font-weight: 500;
+}
+.Main .image-caption strong {
+  color: var(--color-red-dark);
+}
+.Main
+  .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element,
+.Main
+  .sqs-block-button-element--small.sqs-button-element--tertiary.sqs-block-button-element {
+  border: 2px solid var(--color-red-light);
+  background: var(--color-red-dark);
+  color: var(--color-white);
+  font-family: var(--font-paragraph);
+}
+.Main
+  .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element:hover,
+.Main
+  .sqs-block-button-element--small.sqs-button-element--tertiary.sqs-block-button-element:hover {
+  background: var(--color-red-light);
+  color: var(--color-white);
+}
+.Main blockquote {
+  border: none;
+  color: var(--color-black);
+  background: var(--color-red-light);
+  font-family: var(--font-title);
+  font-size: 2.5vh;
+  padding: 2em;
+  transform: rotate(-5deg);
+}

@@ -1,0 +1,131 @@
+:root {
+  --color-black: #000;
+  --color-blue-dark: #043047;
+  --color-blue-mid: #117bbc;
+  --color-blue-light: #8fcbe8;
+  --color-blue-lighter: #c5e2f3;
+  --color-white: #fff;
+  --font-title: "bee", sans-serif;
+  --font-paragraph: "trade-gothic-next", sans-serif;
+  --font-did-you-know: "sunflower", sans-serif;
+}
+/* Exhibit Nav */
+#sub-nav {
+  background-color: var(--color-blue-light);
+  border-bottom: 1px solid var(--color-blue-dark);
+  font-size: 2vh;
+  font-weight: 800;
+  line-height: 1em;
+  width: 100%;
+}
+#sub-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  text-align: center;
+}
+#sub-nav li {
+  color: var(--color-white);
+  display: inline-block;
+  font-family: var(--font-paragraph);
+  margin: 0;
+  padding: 1.5vw 0.75vw;
+  text-transform: uppercase;
+  transition: background 1s, color 1s;
+  vertical-align: middle;
+}
+#sub-nav li:hover,
+.active li {
+  background: var(--color-blue-dark);
+  color: var(--color-white);
+}
+/* End Exhibit Nav */
+
+.Main-content {
+  background: var(--color-black);
+  color: var(--color-white);
+  padding: 5% 2% 1% 2%;
+  text-rendering: optimizeLegibility;
+}
+.Main h1 {
+  color: var(--color-blue-light);
+  font-family: var(--font-title);
+  font-size: 30vh;
+  letter-spacing: 0;
+  line-height: 0.75em;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.Main h2 {
+  color: var(--color-white);
+  font-family: var(--font-paragraph);
+  font-size: 5vh;
+  line-height: 0.75em;
+}
+.Main h2:nth-child(1):not(.Main h2.exempt) {
+  background: var(--color-blue-light);
+  color: var(--color-blue-dark);
+  line-height: 1.5em;
+  padding-left: 0.5em;
+  position: relative;
+  top: 1em;
+  z-index: 999;
+}
+.Main h3 {
+  color: var(--color-white);
+  background: var(--color-blue-mid);
+  font-family: var(--font-did-you-know);
+  font-size: 4vh;
+  font-weight: bold;
+  line-height: 1.5em;
+  padding-left: 0.5em;
+  position: relative;
+  top: 2em;
+  z-index: 999;
+  transform: rotate(-5deg);
+}
+.Main p {
+  font-family: var(--font-paragraph);
+  font-weight: 500;
+}
+.Main .image-caption {
+  color: var(--color-white);
+}
+.Main p strong {
+  color: var(--color-blue-light);
+  font-weight: 700;
+}
+.Main .sqs-row:nth-of-type(5) {
+  background-color: var(--color-blue-dark);
+  color: var(--color-white);
+  padding: 1em 0;
+}
+.Main .image-caption p {
+  color: var(--color-white);
+  font-size: 1.5vh;
+  font-weight: 500;
+}
+.Main .image-caption strong {
+  color: var(--color-blue-light);
+}
+.Main
+  .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element {
+  border: 2px solid var(--color-blue-dark);
+  background: var(--color-blue-light);
+  color: var(--color-blue-dark);
+  font-family: var(--font-paragraph);
+}
+.Main
+  .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element:hover {
+  background: var(--color-blue-dark);
+  color: var(--color-white);
+}
+.Main blockquote {
+  border: none;
+  color: var(--color-black);
+  background: var(--color-blue-lighter);
+  font-family: var(--font-title);
+  font-size: 2.5vh;
+  padding: 2em;
+  transform: rotate(-5deg);
+}
