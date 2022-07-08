@@ -9,6 +9,7 @@
   --font-paragraph: "trade-gothic-next", sans-serif;
   --font-did-you-know: "sunflower", sans-serif;
 }
+
 /* Exhibit Nav */
 #sub-nav {
   background-color: var(--color-orange-mid);
@@ -18,12 +19,14 @@
   line-height: 1em;
   width: 100%;
 }
+
 #sub-nav ul {
   list-style-type: none;
   margin: 0;
   padding-left: 0;
   text-align: center;
 }
+
 #sub-nav li {
   color: var(--color-white);
   display: inline-block;
@@ -34,11 +37,13 @@
   transition: background 1s, color 1s;
   vertical-align: middle;
 }
+
 #sub-nav li:hover,
 .active li {
   background: var(--color-orange-dark);
   color: var(--color-white);
 }
+
 /* End Exhibit Nav */
 
 .Main-content {
@@ -47,6 +52,7 @@
   padding: 5% 2% 1% 2%;
   text-rendering: optimizeLegibility;
 }
+
 .Main h1 {
   color: var(--color-white);
   font-family: var(--font-title);
@@ -56,12 +62,14 @@
   margin-bottom: 0;
   text-transform: uppercase;
 }
+
 #block-yui_3_17_2_1_1647271759676_128241 h2 {
   color: var(--color-orange-mid);
   font-family: var(--font-paragraph);
   font-size: 5vh;
   line-height: 0.75em;
 }
+
 .Main h2:not(#block-yui_3_17_2_1_1647271759676_128241 h2) {
   color: var(--color-white);
   background: var(--color-orange-mid);
@@ -70,13 +78,13 @@
   line-height: 1.5em;
   padding-left: 0.5em;
 }
-.Main
-  h2:not(#block-yui_3_17_2_1_1647271759676_128241
-    h2, #block-yui_3_17_2_1_1647271759676_182018 h2) {
+
+.Main h2:not(#block-yui_3_17_2_1_1647271759676_128241 h2, #block-yui_3_17_2_1_1647271759676_182018 h2) {
   position: relative;
   top: 1em;
   z-index: 999;
 }
+
 .Main h3 {
   color: var(--color-black);
   background: var(--color-orange-light);
@@ -90,55 +98,65 @@
   z-index: 999;
   transform: rotate(-5deg);
 }
+
 .Main p {
   font-family: var(--font-paragraph);
   font-weight: 500;
 }
+
 .Main .image-caption {
   color: var(--color-white);
 }
+
 .Main p strong {
   color: var(--color-orange-mid);
   font-weight: 700;
 }
+
 .Main .sqs-row:nth-of-type(7),
 .Main .sqs-row:nth-of-type(9) {
   background-color: var(--color-white);
   color: var(--color-black);
   padding: 1em 0;
 }
+
 .Main .sqs-row:nth-of-type(7) .image-caption p,
 .Main .sqs-row:nth-of-type(9) .image-caption p {
   color: var(--color-black);
 }
+
 .Main .image-caption p {
   color: var(--color-white);
   font-size: 1.5vh;
   font-weight: 500;
 }
+
 .Main .image-caption strong {
   color: var(--color-orange-mid);
 }
-.Main
-  .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element,
+
+.Main .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element,
 .sqs-block-button-element--small.sqs-button-element--tertiary.sqs-block-button-element {
   border: 2px solid var(--color-orange-dark);
   background: var(--color-orange-mid);
   color: var(--color-white);
   font-family: var(--font-paragraph);
 }
-.Main
-  .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element:hover,
+
+.Main .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element:hover,
 .sqs-block-button-element--small.sqs-button-element--tertiary.sqs-block-button-element:hover {
   background: var(--color-orange-dark);
   color: var(--color-white);
 }
+
 .Main img[src*="madagascan-sunset-moth.png"] {
   transform: rotate(5deg);
 }
+
 .Main img[src*="european-cherry-fruit-fly.jpg"] {
   transform: rotate(45deg);
 }
+
 .Main blockquote {
   border: none;
   color: var(--color-black);
@@ -148,12 +166,15 @@
   padding: 2em;
   transform: rotate(-5deg);
 }
+
 .Main hr {
   background: var(--color-orange-mid);
 }
+
 #block-yui_3_17_2_1_1646944540747_3194 {
   background: var(--color-white);
 }
+
 #block-yui_3_17_2_1_1646944540747_3194 h1 {
   color: var(--color-orange-mid);
 }

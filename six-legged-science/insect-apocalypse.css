@@ -9,6 +9,7 @@
   --font-paragraph: "trade-gothic-next", sans-serif;
   --font-did-you-know: "sunflower", sans-serif;
 }
+
 /* Exhibit Nav */
 #sub-nav {
   background-color: var(--color-red-mid);
@@ -18,12 +19,14 @@
   line-height: 1em;
   width: 100%;
 }
+
 #sub-nav ul {
   list-style-type: none;
   margin: 0;
   padding-left: 0;
   text-align: center;
 }
+
 #sub-nav li {
   color: var(--color-white);
   display: inline-block;
@@ -34,11 +37,13 @@
   transition: background 1s, color 1s;
   vertical-align: middle;
 }
+
 #sub-nav li:hover,
 .active li {
   background: var(--color-red-dark);
   color: var(--color-white);
 }
+
 /* End Exhibit Nav */
 
 .Main-content {
@@ -47,6 +52,7 @@
   padding: 5% 2% 1% 2%;
   text-rendering: optimizeLegibility;
 }
+
 .Main h1 {
   color: var(--color-red-mid);
   font-family: var(--font-title);
@@ -56,6 +62,7 @@
   margin-bottom: 0;
   text-transform: uppercase;
 }
+
 .Main h2 {
   background: var(--color-red-mid);
   color: var(--color-white);
@@ -64,9 +71,11 @@
   line-height: 1.5em;
   padding-left: 0.5em;
 }
+
 .Main h2:nth-child(1) {
   padding-right: 0.5em;
 }
+
 .Main h3 {
   color: var(--color-white);
   background: var(--color-red-dark);
@@ -80,45 +89,53 @@
   z-index: 999;
   transform: rotate(-5deg);
 }
+
 .Main p {
   font-family: var(--font-paragraph);
   font-weight: 500;
 }
+
 .Main .image-caption {
   color: var(--color-white);
 }
+
 .Main p strong {
   color: var(--color-red-mid);
   font-weight: 700;
 }
+
 .Main .sqs-row:nth-of-type(5) {
   background-color: var(--color-white);
   color: var(--color-black);
   padding: 1em 0;
 }
+
 .Main .image-caption p {
   color: var(--color-white);
   font-size: 1.5vh;
   font-weight: 500;
 }
+
 .Main .sqs-row:nth-of-type(5) .image-caption p {
   color: var(--color-black);
 }
+
 .Main .image-caption strong {
   color: var(--color-red-mid);
 }
-.Main
-  .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element {
+
+.Main .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element {
   border: 2px solid var(--color-red-dark);
   background: var(--color-red-light);
   color: var(--color-white);
   font-family: var(--font-paragraph);
 }
-.Main
-  .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element:hover {
+
+.Main .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element:hover {
   background: var(--color-red-dark);
   color: var(--color-white);
 }
+
 .Main blockquote {
   border: none;
   color: var(--color-white);

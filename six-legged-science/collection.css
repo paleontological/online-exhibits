@@ -9,6 +9,7 @@
   --font-paragraph: "trade-gothic-next", sans-serif;
   --font-did-you-know: "sunflower", sans-serif;
 }
+
 /* Exhibit Nav */
 #sub-nav {
   background-color: var(--color-blue-light);
@@ -18,12 +19,14 @@
   line-height: 1em;
   width: 100%;
 }
+
 #sub-nav ul {
   list-style-type: none;
   margin: 0;
   padding-left: 0;
   text-align: center;
 }
+
 #sub-nav li {
   color: var(--color-white);
   display: inline-block;
@@ -34,11 +37,13 @@
   transition: background 1s, color 1s;
   vertical-align: middle;
 }
+
 #sub-nav li:hover,
 .active li {
   background: var(--color-blue-dark);
   color: var(--color-white);
 }
+
 /* End Exhibit Nav */
 
 .Main-content {
@@ -47,6 +52,7 @@
   padding: 5% 2% 1% 2%;
   text-rendering: optimizeLegibility;
 }
+
 .Main h1 {
   color: var(--color-blue-light);
   font-family: var(--font-title);
@@ -56,12 +62,14 @@
   margin-bottom: 0;
   text-transform: uppercase;
 }
+
 .Main h2 {
   color: var(--color-white);
   font-family: var(--font-paragraph);
   font-size: 5vh;
   line-height: 0.75em;
 }
+
 .Main h2:nth-child(1):not(.Main h2.exempt) {
   background: var(--color-blue-light);
   color: var(--color-blue-dark);
@@ -71,6 +79,7 @@
   top: 1em;
   z-index: 999;
 }
+
 .Main h3 {
   color: var(--color-white);
   background: var(--color-blue-mid);
@@ -84,42 +93,49 @@
   z-index: 999;
   transform: rotate(-5deg);
 }
+
 .Main p {
   font-family: var(--font-paragraph);
   font-weight: 500;
 }
+
 .Main .image-caption {
   color: var(--color-white);
 }
+
 .Main p strong {
   color: var(--color-blue-light);
   font-weight: 700;
 }
+
 .Main .sqs-row:nth-of-type(5) {
   background-color: var(--color-blue-dark);
   color: var(--color-white);
   padding: 1em 0;
 }
+
 .Main .image-caption p {
   color: var(--color-white);
   font-size: 1.5vh;
   font-weight: 500;
 }
+
 .Main .image-caption strong {
   color: var(--color-blue-light);
 }
-.Main
-  .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element {
+
+.Main .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element {
   border: 2px solid var(--color-blue-dark);
   background: var(--color-blue-light);
   color: var(--color-blue-dark);
   font-family: var(--font-paragraph);
 }
-.Main
-  .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element:hover {
+
+.Main .sqs-block-button-element--medium.sqs-button-element--primary.sqs-block-button-element:hover {
   background: var(--color-blue-dark);
   color: var(--color-white);
 }
+
 .Main blockquote {
   border: none;
   color: var(--color-black);
