@@ -114,6 +114,13 @@
   padding: 1em 0;
 }
 
+.Main .sqs-row:nth-of-type(10),
+.Main .sqs-row:nth-of-type(12) {
+  background-color: var(--color-blue-dark);
+  color: var(--color-white);
+  padding: 1em 0;
+}
+
 .Main .image-caption p {
   color: var(--color-white);
   font-size: 1.5vh;
