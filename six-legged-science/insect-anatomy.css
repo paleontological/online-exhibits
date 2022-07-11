@@ -57,7 +57,7 @@
 .Main h1 {
     color: var(--color-green-dark);
     font-family: var(--font-title);
-    font-size: 30vh;
+    font-size: clamp(70px, 30vw, 300px);
     letter-spacing: 0;
     line-height: 0.75em;
     margin-bottom: 0;
