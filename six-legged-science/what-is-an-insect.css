@@ -64,7 +64,7 @@
   text-transform: uppercase;
 }
 
-.Main .sqs-row:nth-of-type(8) h1 {
+.Main .sqs-row:nth-of-type(4) h1 {
   color: var(--color-tan);
 }
 
@@ -86,9 +86,9 @@
   font-weight: bold;
 }
 
-.Main .sqs-row:nth-of-type(9) h3,
-.Main .sqs-row:nth-of-type(10) h3,
-.Main .sqs-row:nth-of-type(11) h3 {
+.Main .sqs-row:nth-of-type(5) h3,
+.Main .sqs-row:nth-of-type(6) h3,
+.Main .sqs-row:nth-of-type(7) h3 {
   color: var(--color-tan);
   font-family: var(--font-did-you-know);
   font-size: 4vh;
@@ -100,15 +100,15 @@
   z-index: 999;
 }
 
-.Main .sqs-row:nth-of-type(9) h3 {
+.Main .sqs-row:nth-of-type(5) h3 {
   background: var(--color-red-mid);
 }
 
-.Main .sqs-row:nth-of-type(10) h3 {
+.Main .sqs-row:nth-of-type(6) h3 {
   background: var(--color-green-dark);
 }
 
-.Main .sqs-row:nth-of-type(11) h3 {
+.Main .sqs-row:nth-of-type(7) h3 {
   background: var(--color-red-light);
 }
 
@@ -121,28 +121,28 @@
   font-weight: 700;
 }
 
-.Main .sqs-row:nth-of-type(8) p em,
-.Main .sqs-row:nth-of-type(9) p em,
-.Main .sqs-row:nth-of-type(10) p em,
-.Main .sqs-row:nth-of-type(11) p em,
-.Main .sqs-row:nth-of-type(8) p strong,
-.Main .sqs-row:nth-of-type(9) p strong,
-.Main .sqs-row:nth-of-type(10) p strong,
-.Main .sqs-row:nth-of-type(11) p strong {
+.Main .sqs-row:nth-of-type(4) p em,
+.Main .sqs-row:nth-of-type(5) p em,
+.Main .sqs-row:nth-of-type(6) p em,
+.Main .sqs-row:nth-of-type(7) p em,
+.Main .sqs-row:nth-of-type(4) p strong,
+.Main .sqs-row:nth-of-type(5) p strong,
+.Main .sqs-row:nth-of-type(6) p strong,
+.Main .sqs-row:nth-of-type(7) p strong {
   color: var(--color-tan);
 }
 
-.Main .sqs-row:nth-of-type(8) blockquote strong,
-.Main .sqs-row:nth-of-type(9) blockquote strong,
-.Main .sqs-row:nth-of-type(10) blockquote strong,
-.Main .sqs-row:nth-of-type(11) blockquote strong {
+.Main .sqs-row:nth-of-type(5) blockquote strong,
+.Main .sqs-row:nth-of-type(6) blockquote strong,
+.Main .sqs-row:nth-of-type(7) blockquote strong,
+.Main .sqs-row:nth-of-type(8) blockquote strong {
   color: var(--color-black);
 }
 
-.Main .sqs-row:nth-of-type(8) blockquote,
-.Main .sqs-row:nth-of-type(9) blockquote,
-.Main .sqs-row:nth-of-type(10) blockquote,
-.Main .sqs-row:nth-of-type(11) blockquote {
+.Main .sqs-row:nth-of-type(5) blockquote,
+.Main .sqs-row:nth-of-type(6) blockquote,
+.Main .sqs-row:nth-of-type(7) blockquote,
+.Main .sqs-row:nth-of-type(8) blockquote {
   border: none;
   color: var(--color-black);
   font-family: var(--font-title);
@@ -150,15 +150,15 @@
   padding: 2em;
 }
 
-.Main .sqs-row:nth-of-type(9) blockquote {
+.Main .sqs-row:nth-of-type(5) blockquote {
   background: var(--color-orange-light);
 }
 
-.Main .sqs-row:nth-of-type(10) blockquote {
+.Main .sqs-row:nth-of-type(6) blockquote {
   background: var(--color-green-light);
 }
 
-.Main .sqs-row:nth-of-type(11) blockquote {
+.Main .sqs-row:nth-of-type(7) blockquote {
   background: var(--color-tan);
 }
 
@@ -170,16 +170,17 @@
   color: var(--color-green-dark);
 }
 
-.Main .sqs-row:nth-of-type(8),
-.Main .sqs-row:nth-of-type(9),
-.Main .sqs-row:nth-of-type(10),
-.Main .sqs-row:nth-of-type(11) {
+.Main .sqs-row:nth-of-type(4),
+.Main .sqs-row:nth-of-type(5),
+.Main .sqs-row:nth-of-type(6),
+.Main .sqs-row:nth-of-type(7),
+.Main .sqs-row:nth-of-type(8) {
   background-color: var(--color-black);
   color: var(--color-white);
   padding: 1em 0;
 }
 
-.Main .sqs-row:nth-of-type(18) {
+.Main .sqs-row:nth-of-type(14) {
   background-color: var(--color-green-dark);
   color: var(--color-white);
   padding: 1em 0;
