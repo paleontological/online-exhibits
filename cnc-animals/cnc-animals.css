@@ -1,9 +1,24 @@
 :root {
-    /*Amphibian colors*/
     --color-amphibian-background: #526728;
     --color-amphibian-content: #365529;
     --color-amphibian-subtitle: #b1b93a;
     --color-amphibian-text: #fff;
+    --color-bird-background: #84b3b9;
+    --color-bird-content: #508b8e;
+    --color-bird-subtitle: #dfe0a6;
+    --color-bird-text: #fff;
+    --color-arthropod-background: #f0a226;
+    --color-arthropod-content: #d4841c;
+    --color-arthropod-subtitle: #fadc7c;
+    --color-arthropod-text: #fff;
+    --color-reptile-background: #29746f;
+    --color-reptile-content: #225b5c;
+    --color-reptile-subtitle: #b1b93a;
+    --color-reptile-text: #fff;
+    --color-mammal-background: #2f3d60;
+    --color-mammal-content: #2b395e;
+    --color-mammal-subtitle: #b1b93a;
+    --color-mammal-text: #fff;
 }
 
 .Main {
