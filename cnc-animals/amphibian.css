@@ -1,0 +1,29 @@
+:root {
+    --color-amphibian-background: #526728;
+    --color-amphibian-content: #365529;
+    --color-amphibian-subtitle: #b1b93a;
+    --color-amphibian-text: #fff;
+}
+
+.Main {
+    background-color: var(--color-amphibian-background);
+}
+.Main h1, .Main h2, .Main p {
+    color: var(--color-amphibian-text);
+}
+.Main h3 {
+    color: var(--color-amphibian-subtitle);
+    font-weight: 800;
+}
+.BlogItem-title {
+    text-align: left;
+}
+.Main .sqs-row:nth-of-type(1) {
+    border-bottom: 2px solid var(--color-amphibian-text);
+}
+.Main .sqs-row:nth-of-type(2) {
+    background: var(--color-amphibian-content);
+}
+.Main p {
+    font-size: 1.25em;
+}

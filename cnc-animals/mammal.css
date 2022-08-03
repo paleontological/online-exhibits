@@ -1,0 +1,29 @@
+:root {
+    --color-mammal-background: #29746f;
+    --color-mammal-content: #225b5c;
+    --color-mammal-subtitle: #b1b93a;
+    --color-mammal-text: #fff;
+}
+
+.Main {
+    background-color: var(--color-mammal-background);
+}
+.Main h1, .Main h2, .Main p {
+    color: var(--color-mammal-text);
+}
+.Main h3 {
+    color: var(--color-mammal-subtitle);
+    font-weight: 800;
+}
+.BlogItem-title {
+    text-align: left;
+}
+.Main .sqs-row:nth-of-type(1) {
+    border-bottom: 2px solid var(--color-mammal-text);
+}
+.Main .sqs-row:nth-of-type(2) {
+    background: var(--color-mammal-content);
+}
+.Main p {
+    font-size: 1.25em;
+}
