@@ -33,7 +33,7 @@ div.image-button-inner a {
 }
 
 .Main h2 {
-  color: var(--color-blue);
+  color: var(--color-yellow);
   font-size: 2em;
   font-style: normal;
   font-weight: bold;
@@ -41,7 +41,7 @@ div.image-button-inner a {
 }
 
 .Main h3 {
-  color: var(--color-blue);
+  color: var(--color-red);
   font-size: 1.5em;
   font-style: normal;
   font-weight: bold;
