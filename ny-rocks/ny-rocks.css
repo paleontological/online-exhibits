@@ -57,15 +57,15 @@ div.image-button-inner a {
 }
 
 #sub-nav {
-  background-color: var(--color-green);
-  border-bottom: 1px solid var(--color-blue);
+  background-color: var(--color-blue);
+  border-bottom: 1px solid var(--color-yellow);
   font-size: 1.25em;
   font-weight: 800;
   line-height: 1em;
   width: 100%;
 }
 
-#sub-nav ul {
+#sub-nav menu {
   list-style-type: none;
   margin: 0;
   padding-left: 0;
@@ -83,7 +83,7 @@ div.image-button-inner a {
 
 #sub-nav li:hover,
 .active li {
-  background: var(--color-red);
+  background: var(--color-blue);
   color: var(--color-white);
 }
 
@@ -106,169 +106,6 @@ div.image-button-inner a {
 .Main em:not(.meta-description em) {
   color: var(--color-red);
   font-style: normal;
-}
-
-.green-block {
-  background: var(--color-green);
-}
-
-.blue-block {
-  background: var(--color-blue);
-}
-
-.green-block,
-.blue-block {
-  /*margin: -1vw;*/
-  padding: 1em 2em;
-}
-
-.green-block img,
-.blue-block img {
-  margin: 0;
-}
-
-.green-block h2,
-.green-block h3,
-.green-block p,
-.green-block em,
-.green-block strong,
-.green-block mark,
-.green-block figcaption,
-.blue-block h2,
-.blue-block h3,
-.blue-block p,
-.blue-block em,
-.blue-block strong,
-.blue-block mark,
-.blue-block figcaption {
-  color: var(--color-white) !important;
-}
-
-.green-block a {
-  color: var(--color-blue) !important;
-}
-
-.blue-block a {
-  color: var(--color-green) !important;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  align-items: stretch;
-  align-content: stretch;
-  gap: 1em;
-}
-
-.column {
-  display: flex;
-  flex: 50%;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  align-items: stretch;
-  align-content: stretch;
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 960px) {
-  .row {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: stretch;
-    align-content: stretch;
-    gap: 1em;
-  }
-
-  .column {
-    display: flex;
-    flex: 100%;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: stretch;
-    align-content: stretch;
-    padding: 1em 0;
-  }
-}
-
-.Main .meta {
-  background: none;
-}
-
-/* Tooltip container */
-.tooltip {
-  position: relative;
-  display: inline-block;
-}
-
-mark {
-  background: none;
-  font-style: italic;
-  border-bottom: 1px dotted;
-  /*margin: 0 -0.4em;
-  padding: 0.1em 0.4em;
-  border-radius: 0.8em 0.3em;
-  background: transparent;
-  background-image: linear-gradient(
-    to right,
-    rgba(255, 225, 0, 0.1),
-    rgba(255, 225, 0, 0.7) 4%,
-    rgba(255, 225, 0, 0.3)
-  );
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;*/
-}
-
-.tooltip:hover {
-  cursor: help;
-}
-
-.tooltip::after {
-  content: " 📖";
-  font-style: normal;
-  font-weight: 400;
-}
-
-/* Tooltip text */
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 300px;
-  background-color: var(--color-black);
-  color: var(--color-white);
-  text-align: center;
-  font-style: normal;
-  font-weight: 400;
-  padding: 0.5em;
-  border-radius: 6px;
-  /* Position the tooltip text - see examples below! */
-  position: absolute;
-  z-index: 1;
-  bottom: 120%;
-  left: 50%;
-  margin-left: -150px;
-  /* Use half of the width (120/2 = 60), to center the tooltip */
-}
-
-.tooltip .tooltiptext::after {
-  content: " ";
-  position: absolute;
-  top: 100%;
-  /* At the bottom of the tooltip */
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: var(--color-black) transparent transparent transparent;
-}
-
-/* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltiptext {
-  visibility: visible;
 }
 
 @media screen and (max-width: 930px) {
