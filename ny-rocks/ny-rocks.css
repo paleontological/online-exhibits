@@ -87,8 +87,7 @@ div.image-button-inner a {
   color: var(--color-white);
 }
 
-.Main strong,
-.Main a {
+.Main strong {
   color: var(--color-red) !important;
   font-weight: bold;
 }
