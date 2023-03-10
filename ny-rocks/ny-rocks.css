@@ -12,10 +12,11 @@
 }
 
 .Main h1,
-.Main h2
+.Main h2,
 a.sqs-block-button-element--medium,
 div.image-button-inner a {
   font-family: 'Teko', sans-serif;
+  text-transform: uppercase;
 }
 
 .Main h3,
