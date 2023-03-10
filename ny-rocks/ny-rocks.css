@@ -12,14 +12,20 @@
 }
 
 .Main h1,
-.Main h2,
-.Main h3,
-.Main p,
-.image-slide-title,
+.Main h2
 a.sqs-block-button-element--medium,
-#sub-nav,
 div.image-button-inner a {
-  font-family: aktiv-grotesk, sans-serif;
+  font-family: 'Teko', sans-serif;
+}
+
+.Main h3,
+#sub-nav {
+  font-family: 'Roboto', sans-serif;
+}
+
+.Main p,
+.image-slide-title {
+  font-family: 'League Spartan', sans-serif;
 }
 
 .Main h1 {
