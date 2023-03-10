@@ -8,7 +8,6 @@
 }
 
 .Main-content {
-  padding: 0 5% 5%;
   text-rendering: optimizeLegibility;
 }
 
@@ -24,7 +23,7 @@ div.image-button-inner a {
 }
 
 .Main h1 {
-  color: var(--color-green);
+  color: var(--color-red);
   font-size: 5em;
   font-style: normal;
   font-weight: 900;
@@ -83,12 +82,12 @@ div.image-button-inner a {
 
 #sub-nav li:hover,
 .active li {
-  background: var(--color-blue);
+  background: var(--color-yellow);
   color: var(--color-white);
 }
 
 .Main strong {
-  color: var(--color-red) !important;
+  color: var(--color-green) !important;
   font-weight: bold;
 }
 
@@ -100,11 +99,6 @@ div.image-button-inner a {
   font-size: 1em !important;
   font-style: normal !important;
   font-weight: 400 !important;
-}
-
-.Main em:not(.meta-description em) {
-  color: var(--color-red);
-  font-style: normal;
 }
 
 @media screen and (max-width: 930px) {
