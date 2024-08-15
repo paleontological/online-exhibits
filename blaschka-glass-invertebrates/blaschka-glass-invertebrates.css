@@ -49,6 +49,8 @@
   color: black;
   background: #faeeca;
   padding: 20px;
+  outline: 1px solid black;
+  outline-offset: -10px;
 }
 
 .image-block-outer-wrapper,
@@ -66,8 +68,6 @@
   font-family: "p22-underground", sans-serif;
   font-weight: 300;
   font-style: normal;
-  outline: 1px solid black;
-  outline-offset: -10px;
 }
 
 div.image-button-inner a,
