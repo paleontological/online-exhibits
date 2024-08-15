@@ -1,0 +1,133 @@
+.Main,
+.Intro {
+  background-color: #273253 !important;
+}
+
+.Main-content {
+  padding: 1% 10% 5% 10%;
+  text-rendering: optimizeLegibility;
+  margin: 15px;
+  border: 1px solid #faeeca;
+}
+
+.Main {
+  box-shadow:
+    0 0 0 5px #273253,
+    0 0 0 10px #f2aa84,
+    0 0 0 25px #273253;
+  outline: 2px solid #f2aa84;
+  margin: 25px;
+  padding: 0.1% 0.75%;
+}
+
+.Intro h1,
+.Main h1 {
+  color: #faeeca;
+  font-family: "p22-underground", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.Main h2 {
+  color: #faeeca;
+  font-family: "p22-underground", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.Main h3,
+.summary-title {
+  color: #faeeca;
+  font-family: "p22-underground", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.Main .sqs-html-content p {
+  font-family: "p22-underground", sans-serif;
+  font-style: normal;
+  color: black;
+  background: #faeeca;
+  padding: 20px;
+}
+
+.image-block-outer-wrapper,
+.sqs-block-video-placeholder,
+.sqs-block-embed,
+.sqs-block-gallery {
+  background: #faeeca;
+  padding: 20px;
+  box-shadow: 0px 0px 1px 1px #273253;
+}
+
+.image-caption p,
+.video-caption p {
+  color: black;
+  font-family: "p22-underground", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+div.image-button-inner a,
+a.sqs-block-button-element--small,
+a.sqs-block-button-element--medium,
+a.sqs-block-button-element--large {
+  color: #273253 !important;
+  font-family: "p22-underground", sans-serif !important;
+  font-weight: 600 !important;
+  font-style: normal !important;
+  text-transform: none !important;
+  background: #faeeca !important;
+  border-color: #f2aa84 !important;
+}
+
+div.image-button-inner a:hover,
+a.sqs-block-button-element--small:hover,
+a.sqs-block-button-element--medium:hover,
+a.sqs-block-button-element--large:hover {
+  background: #f2aa84 !important;
+  border-color: #faeeca !important;
+}
+
+.Main hr {
+  background: #faeeca;
+}
+
+#sub-nav {
+  width: 100%;
+  border-bottom: 1px dashed #f2aa84;
+  letter-spacing: .1em;
+  font-weight: 400;
+  font-family: "p22-underground", sans-serif;
+  line-height: 1em;
+}
+
+#sub-nav ul {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+#sub-nav li {
+  display: inline-block;
+  padding: 2vw 0.5vw;
+  color: #faeeca;
+  font-family: "p22-underground", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  vertical-align: middle;
+  transition: background 1s, color 1s;
+}
+
+#sub-nav li:hover,
+.active li {
+  background: #faeeca;
+  color: #273253 !important;
+}
+
+@media screen and (max-width: 930px) {
+  #sub-nav li {
+    padding: 15px;
+  }
+}
