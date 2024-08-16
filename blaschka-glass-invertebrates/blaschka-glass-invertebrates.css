@@ -66,6 +66,16 @@
   outline-offset: -10px;
 }
 
+.summary-item {
+  background: #faeeca;
+  padding: 20px;
+
+}
+
+.summary-title {
+  color: #273253;
+}
+
 .image-block-outer-wrapper,
 .sqs-block-video-placeholder,
 .sqs-block-embed,
