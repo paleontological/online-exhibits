@@ -28,6 +28,19 @@
   font-style: normal;
 }
 
+.Main h1:after,
+.Intro h1:after {
+  display: inline-block;
+  content: "";
+  background: url(https://paleontological.github.io/online-exhibits/blaschka-glass-invertebrates/curl.svg) bottom left no-repeat;
+  background-size: contain;
+  width: 2em;
+  height: 1em;
+  filter: invert(100%) sepia(20%) saturate(2878%) hue-rotate(346deg) brightness(110%) contrast(97%);
+  margin-left: 0.25em;
+}
+
+
 .Main h2 {
   color: #faeeca;
   font-family: "p22-underground", sans-serif;
