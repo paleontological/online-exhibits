@@ -45,6 +45,7 @@
       url(https://paleontological.github.io/online-exhibits/blaschka-glass-invertebrates/tl.png) top left no-repeat,
       url(https://paleontological.github.io/online-exhibits/blaschka-glass-invertebrates/br.png) bottom right no-repeat,
       url(https://paleontological.github.io/online-exhibits/blaschka-glass-invertebrates/tr.png) top right no-repeat;
+  background-size: 15%;
 }
 
 .Main h2 {
@@ -160,5 +161,10 @@ a.sqs-block-button-element--large:hover {
 @media screen and (max-width: 930px) {
   #sub-nav li {
     padding: 15px;
+  }
+
+  .Main {
+    background-size: 15%;
+    background-position: bottom 1em left 0.25em, top 1em left 0.25em, bottom 1em right 0.25em, top 1em right 0.25em;
   }
 }
