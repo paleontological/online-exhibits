@@ -40,6 +40,12 @@
   margin-left: 0.25em;
 }
 
+.Main {
+  background: url(https://paleontological.github.io/online-exhibits/blaschka-glass-invertebrates/bl.png) bottom left no-repeat,
+      url(https://paleontological.github.io/online-exhibits/blaschka-glass-invertebrates/tl.png) top left no-repeat,
+      url(https://paleontological.github.io/online-exhibits/blaschka-glass-invertebrates/br.png) bottom right no-repeat,
+      url(https://paleontological.github.io/online-exhibits/blaschka-glass-invertebrates/tr.png) top right no-repeat;
+}
 
 .Main h2 {
   color: #faeeca;
