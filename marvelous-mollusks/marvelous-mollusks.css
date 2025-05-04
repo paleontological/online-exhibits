@@ -64,12 +64,13 @@
 }
 
 .summary-item {
-  background: #faeeca;
+  background: var(--secondary);
   padding: 20px;
 }
 
 .summary-title {
-  color: #273253;
+  color: var(--primary);
+  font-family: "HanleyPro-Block", serif !important;
 }
 
 .image-block-outer-wrapper,
@@ -82,7 +83,7 @@
 
 .image-caption p,
 .video-caption p {
-  color: var(--background);
+  color: var(--primary-light);
   font-style: normal;
   font-weight: 300;
 }
@@ -94,6 +95,7 @@ a.sqs-block-button-element--large {
   background: var(--background) !important;
   border-color: var(--primary) !important;
   color: var(--secondary) !important;
+  font-family: "HanleyPro-Block", serif !important;
   text-transform: none !important;
 }
 
