@@ -23,6 +23,13 @@
   padding-top: 0;
 }
 
+#marvelous-mollusks-logo {
+  background: url(https://paleontological.github.io/online-exhibits/marvelous-mollusks/marvelous-mollusks-logo.svg) no-repeat, url(https://paleontological.github.io/online-exhibits/marvelous-mollusks/shell-spiral.avif) no-repeat;
+  background-size: contain, contain;
+  background-position: center, center;
+  height: 100vh;
+  }
+
 .Intro h1 {
   font-family: "HanleyPro-Block", serif !important;
   font-size: 7em;
