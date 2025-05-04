@@ -1,6 +1,9 @@
 :root {
-  --primary: #b463fb;
+  --background: #000;
+  --primary: #a000ff;
+  --primary-light: #b463fb;
   --secondary: #a0eef3;
+  --secondary-light: #cefefe;
 }
 
 @font-face {
@@ -12,7 +15,7 @@
 
 .Main,
 .Intro {
-  background-color: #000 !important;
+  background-color: var(--background) !important;
 }
 
 .Main-content {
@@ -21,17 +24,17 @@
 }
 
 .Intro h1 {
-  font-family: "HanleyPro-Block", sans-serif !important;
+  font-family: "HanleyPro-Block", serif !important;
   font-size: 7em;
   letter-spacing: 0.001em;
   line-height: 1em;
-  text-shadow: 4px 3px var(--primary);
-  -webkit-text-stroke: 0.001em #000;
+  text-shadow: 4px 3px var(--primary-light);
+  -webkit-text-stroke: 0.001em var(--background);
 }
 
 .Intro h2 {
   color: var(--primary);
-  font-family: "HanleyPro-Block", sans-serif !important;
+  font-family: "HanleyPro-Block", serif !important;
   font-size: 4em;
   line-height: 1em;
 }
@@ -39,18 +42,18 @@
 .Intro h1,
 .Main h1 {
   color: var(--secondary);
-  font-family: "HanleyPro-Block", sans-serif !important;
+  font-family: "HanleyPro-Block", serif !important;
 }
 
 .Main h2 {
   color: var(--secondary);
-  font-family: "HanleyPro-Block", sans-serif !important;
+  font-family: "HanleyPro-Block", serif !important;
 }
 
 .Main h3,
 .summary-title {
   color: var(--secondary);
-  font-family: "HanleyPro-Block", sans-serif !important;
+  font-family: "HanleyPro-Block", serif !important;
 }
 
 .Main .sqs-html-content p {
@@ -79,7 +82,7 @@
 
 .image-caption p,
 .video-caption p {
-  color: black;
+  color: var(--background);
   font-style: normal;
   font-weight: 300;
 }
@@ -88,7 +91,7 @@ div.image-button-inner a,
 a.sqs-block-button-element--small,
 a.sqs-block-button-element--medium,
 a.sqs-block-button-element--large {
-  background: #000 !important;
+  background: var(--background) !important;
   border-color: var(--primary) !important;
   color: var(--secondary) !important;
   text-transform: none !important;
@@ -100,7 +103,7 @@ a.sqs-block-button-element--medium:hover,
 a.sqs-block-button-element--large:hover {
   background: var(--secondary) !important;
   border-color: var(--primary) !important;
-  color: #000 !important;
+  color: var(--background) !important;
 }
 
 .Main hr {
@@ -109,7 +112,7 @@ a.sqs-block-button-element--large:hover {
 
 #sub-nav {
   border-bottom: 1px dashed var(--primary);
-  font-family: "HanleyPro-Block", sans-serif !important;
+  font-family: "HanleyPro-Block", serif !important;
   letter-spacing: 0.03em;
   line-height: 1em;
   width: 100%;
