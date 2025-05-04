@@ -25,7 +25,7 @@
 
 #marvelous-mollusks-logo {
   background: url(https://paleontological.github.io/online-exhibits/marvelous-mollusks/marvelous-mollusks-logo.svg) no-repeat, url(https://paleontological.github.io/online-exhibits/marvelous-mollusks/shell-spiral.avif) no-repeat;
-  background-size: contain, contain;
+  background-size: contain, 75vh;
   background-position: center, center;
   height: 100vh;
   }
