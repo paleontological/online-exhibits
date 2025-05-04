@@ -1,6 +1,6 @@
 :root {
   --primary: #b463fb;
-  --sec: #a0eef3;
+  --secondary: #a0eef3;
 }
 
 @font-face {
@@ -17,12 +17,14 @@
 
 .Main-content {
   text-rendering: optimizeLegibility;
+  padding-top: 0;
 }
 
 .Intro h1 {
   font-family: "HanleyPro-Block", sans-serif !important;
   font-size: 7em;
   letter-spacing: 0.001em;
+  line-height: 1em;
   text-shadow: 4px 3px var(--primary);
   -webkit-text-stroke: 0.001em #000;
 }
@@ -31,21 +33,24 @@
   color: var(--primary);
   font-family: "HanleyPro-Block", sans-serif !important;
   font-size: 4em;
+  line-height: 1em;
 }
-
 
 .Intro h1,
 .Main h1 {
   color: var(--secondary);
+  font-family: "HanleyPro-Block", sans-serif !important;
 }
 
 .Main h2 {
   color: var(--secondary);
+  font-family: "HanleyPro-Block", sans-serif !important;
 }
 
 .Main h3,
 .summary-title {
   color: var(--secondary);
+  font-family: "HanleyPro-Block", sans-serif !important;
 }
 
 .Main .sqs-html-content p {
@@ -104,6 +109,7 @@ a.sqs-block-button-element--large:hover {
 
 #sub-nav {
   border-bottom: 1px dashed var(--primary);
+  font-family: "HanleyPro-Block", sans-serif !important;
   letter-spacing: 0.03em;
   line-height: 1em;
   width: 100%;
