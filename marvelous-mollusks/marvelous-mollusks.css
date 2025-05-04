@@ -24,11 +24,30 @@
 }
 
 #marvelous-mollusks-logo {
-  background: url(https://paleontological.github.io/online-exhibits/marvelous-mollusks/marvelous-mollusks-logo.svg) no-repeat, url(https://paleontological.github.io/online-exhibits/marvelous-mollusks/shell-spiral.avif) no-repeat;
-  background-size: contain, 75vh;
-  background-position: center, center;
+  background: url(https://paleontological.github.io/online-exhibits/marvelous-mollusks/marvelous-mollusks-logo.svg) no-repeat;
+  background-size: contain;
+  background-position: center;
   height: 100vh;
   }
+
+#shell-spiral {
+  background: url(https://paleontological.github.io/online-exhibits/marvelous-mollusks/shell-spiral.avif) no-repeat;
+  background-size: 75vh;
+  background-position: center;
+  height: 100vh;
+  animation: rotation 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
 
 .Intro h1 {
   font-family: "HanleyPro-Block", serif !important;
