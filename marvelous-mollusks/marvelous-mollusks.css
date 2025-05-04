@@ -1,136 +1,141 @@
-@font-face {
-  font-family: 'HanleyPro-Block';
-  src: url('https://paleontological.github.io/online-exhibits/marvelous-mollusks/HanleyPro-Block.otf') format('opentype');
-  font-weight: normal;
+:root {
+  --primary: var(--primary);
+  --sec: var(--secondary);
+  }
+  
+  @font-face {
+    font-family: 'HanleyPro-Block';
+    src: url('https://paleontological.github.io/online-exhibits/marvelous-mollusks/HanleyPro-Block.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .Main,
+  .Intro {
+  background-color: #000 !important;
+  }
+  
+  .Main-content {
+  text-rendering: optimizeLegibility;
+  }
+  
+  .Intro h1 {
+  font-family: "HanleyPro-Block", sans-serif !important;
+  font-size: 7em;
+  letter-spacing: 0.001em;
+  text-shadow: 4px 3px var(--primary);
+  -webkit-text-stroke: 0.001em #000;
+  }
+  
+  .Intro h2 {
+  color: var(--primary);
+  font-family: "HanleyPro-Block", sans-serif !important;
+  font-size: 4em;
+  }
+  
+  
+  .Intro h1,
+  .Main h1 {
+  color: var(--secondary);
+  }
+  
+  .Main h2 {
+  color: var(--secondary);
+  }
+  
+  .Main h3,
+  .summary-title {
+  color: var(--secondary);
+  }
+  
+  .Main .sqs-html-content p {
+  color: var(--secondary);
+  outline: 1px solid var(--primary);
+  outline-offset: -10px;
+  padding: 20px;
+  }
+  
+  .summary-item {
+  background: #faeeca;
+  padding: 20px;
+  }
+  
+  .summary-title {
+  color: #273253;
+  }
+  
+  .image-block-outer-wrapper,
+  .sqs-block-video-placeholder,
+  .sqs-block-embed,
+  .sqs-block-gallery {
+  outline: 1px solid var(--secondary);
+  padding: 20px;
+  }
+  
+  .image-caption p,
+  .video-caption p {
+  color: black;
   font-style: normal;
-}
-
-.Main,
-.Intro {
-background-color: #000 !important;
-}
-
-.Main-content {
-text-rendering: optimizeLegibility;
-}
-
-.Intro h1 {
-font-size: 7em;
-letter-spacing: 0.001em;
-text-shadow: 4px 3px #b463fb;
--webkit-text-stroke: 0.001em #000;
-}
-
-.Intro h1,
-.Main h1 {
-color: #a0eef3;
-font-family: "HanleyPro-Block", sans-serif;
-}
-
-.Main h2 {
-color: #a0eef3;
-font-family: "HanleyPro-Block", sans-serif;
-}
-
-.Main h3,
-.summary-title {
-color: #a0eef3;
-font-family: "HanleyPro-Block", sans-serif;
-}
-
-.Main .sqs-html-content p {
-color: #a0eef3;
-font-family: "HanleyPro-Block", sans-serif;
-outline: 1px solid #b463fb;
-outline-offset: -10px;
-padding: 20px;
-}
-
-.summary-item {
-background: #faeeca;
-padding: 20px;
-}
-
-.summary-title {
-color: #273253;
-}
-
-.image-block-outer-wrapper,
-.sqs-block-video-placeholder,
-.sqs-block-embed,
-.sqs-block-gallery {
-outline: 1px solid #a0eef3;
-padding: 20px;
-}
-
-.image-caption p,
-.video-caption p {
-color: black;
-font-family: "HanleyPro-Block", sans-serif;
-font-style: normal;
-font-weight: 300;
-}
-
-div.image-button-inner a,
-a.sqs-block-button-element--small,
-a.sqs-block-button-element--medium,
-a.sqs-block-button-element--large {
-background: #000 !important;
-border-color: #b463fb !important;
-color: #a0eef3 !important;
-font-family: "HanleyPro-Block", sans-serif !important;
-text-transform: none !important;
-}
-
-div.image-button-inner a:hover,
-a.sqs-block-button-element--small:hover,
-a.sqs-block-button-element--medium:hover,
-a.sqs-block-button-element--large:hover {
-background: #a0eef3 !important;
-border-color: #b463fb !important;
-color: #000 !important;
-}
-
-.Main hr {
-background: #b463fb;
-}
-
-#sub-nav {
-border-bottom: 1px dashed #b463fb;
-font-family: "HanleyPro-Block", sans-serif;
-letter-spacing: 0.03em;
-line-height: 1em;
-width: 100%;
-}
-
-#sub-nav ul {
-list-style-type: none;
-margin: 0;
-padding-left: 0;
-text-align: center;
-}
-
-#sub-nav li {
-color: #b463fb;
-display: inline-block;
-font-family: "HanleyPro-Block", sans-serif;
-padding: 2vw 0.5vw;
-transition: background 1s, color 1s;
-vertical-align: middle;
-}
-
-#sub-nav li:hover,
-.active li {
-color: #a0eef3 !important;
-}
-
-@media screen and (max-width: 930px) {
-#sub-nav li {
-  padding: 15px;
-}
-
-.Main {
-  background-size: 15%;
-  background-position: bottom 1em left 0.25em, top 1em left 0.25em, bottom 1em right 0.25em, top 1em right 0.25em;
-}
-}
+  font-weight: 300;
+  }
+  
+  div.image-button-inner a,
+  a.sqs-block-button-element--small,
+  a.sqs-block-button-element--medium,
+  a.sqs-block-button-element--large {
+  background: #000 !important;
+  border-color: var(--primary) !important;
+  color: var(--secondary) !important;
+  text-transform: none !important;
+  }
+  
+  div.image-button-inner a:hover,
+  a.sqs-block-button-element--small:hover,
+  a.sqs-block-button-element--medium:hover,
+  a.sqs-block-button-element--large:hover {
+  background: var(--secondary) !important;
+  border-color: var(--primary) !important;
+  color: #000 !important;
+  }
+  
+  .Main hr {
+  background: var(--primary);
+  }
+  
+  #sub-nav {
+  border-bottom: 1px dashed var(--primary);
+  letter-spacing: 0.03em;
+  line-height: 1em;
+  width: 100%;
+  }
+  
+  #sub-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  text-align: center;
+  }
+  
+  #sub-nav li {
+  color: var(--primary);
+  display: inline-block;
+  padding: 2vw 0.5vw;
+  transition: background 1s, color 1s;
+  vertical-align: middle;
+  }
+  
+  #sub-nav li:hover,
+  .active li {
+  color: var(--secondary) !important;
+  }
+  
+  @media screen and (max-width: 930px) {
+  #sub-nav li {
+    padding: 15px;
+  }
+  
+  .Main {
+    background-size: 15%;
+    background-position: bottom 1em left 0.25em, top 1em left 0.25em, bottom 1em right 0.25em, top 1em right 0.25em;
+  }
+  }
