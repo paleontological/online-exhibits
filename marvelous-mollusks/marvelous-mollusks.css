@@ -13,9 +13,13 @@
   font-style: normal;
 }
 
-.Main,
 .Intro {
   background-color: var(--background) !important;
+}
+
+.Main {
+  background: url(https://paleontological.github.io/online-exhibits/marvelous-mollusks/bg-introduction.avif) no-repeat;
+  background-size: cover;
 }
 
 .Main-content {
@@ -35,7 +39,7 @@
   background-size: 75vh;
   background-position: center;
   height: 100vh;
-  animation: rotation 60s;
+  animation: rotation 120s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
@@ -83,10 +87,10 @@
 }
 
 .Main .sqs-html-content p {
-  color: var(--secondary);
-  outline: 1px solid var(--primary);
-  outline-offset: -10px;
-  padding: 20px;
+  background: var(--secondary-light);
+  border: 2px solid var(--secondary);
+  border-radius: 20px;
+  padding: 2em 1em;
 }
 
 .summary-item {
@@ -103,6 +107,9 @@
 .sqs-block-video-placeholder,
 .sqs-block-embed,
 .sqs-block-gallery {
+  background: var(--secondary-light);
+  border: 2px solid var(--secondary);
+  border-radius: 20px;
   outline: 1px solid var(--secondary);
   padding: 20px;
 }
@@ -139,7 +146,9 @@ a.sqs-block-button-element--large:hover {
 }
 
 #sub-nav {
-  border-bottom: 1px dashed var(--primary);
+  background: var(--secondary);
+  border-radius: 20px;
+  border: 2px solid var(--secondary-light);
   font-family: "HanleyPro-Block", serif !important;
   letter-spacing: 0.03em;
   line-height: 1em;
@@ -163,7 +172,7 @@ a.sqs-block-button-element--large:hover {
 
 #sub-nav li:hover,
 .active li {
-  color: var(--secondary) !important;
+  color: var(--primary-light) !important;
 }
 
 @media screen and (max-width: 930px) {
