@@ -69,10 +69,15 @@
   line-height: 1em;
 }
 
-.Intro h1,
 .Main h1 {
   color: var(--secondary);
   font-family: "HanleyPro-Block", serif !important;
+}
+
+.h1-standalone {
+  font-size: 15vh;
+  line-height: 1em;
+  text-shadow: 1px 1px var(--background), 3px 3px var(--primary-light);
 }
 
 .Main h2 {
@@ -86,11 +91,11 @@
   font-family: "HanleyPro-Block", serif !important;
 }
 
-.Main .sqs-html-content p {
+.Main .sqs-html-content {
   background: var(--secondary-light);
   border: 2px solid var(--secondary);
   border-radius: 20px;
-  padding: 2em 1em;
+  padding: 2em;
 }
 
 .summary-item {
