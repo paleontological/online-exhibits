@@ -1,11 +1,11 @@
 :root {
   --background: #000;
-  --primary: #a000ff;
-  --primary-light: #b463fb;
+  --primary: #fdfdfd;
+  --primary-light: #fff;
   --secondary: #a0eef3;
   --secondary-light: #cefefe;
-  --heading: #0992a3;
-  --strong: #053c4b;
+  --heading: #5cc465;
+  --strong: #2a3e92;
 }
 
 @font-face {
@@ -31,10 +31,10 @@
 }
 
 .h1-standalone {
-  color: var(--secondary) !important;
+  color: var(--primary-light) !important;
   font-size: 15vh;
   line-height: 1em;
-  text-shadow: 1px 1px var(--background), 3px 3px var(--primary-light);
+  text-shadow: 2px 2px 3px var(--background);
 }
 
 .Main h2 {
@@ -48,8 +48,8 @@
 }
 
 .Main .sqs-html-content:not(.image-caption) {
-  background: var(--secondary-light);
-  border: 2px solid var(--secondary);
+  background: var(--primary);
+  border: 2px solid var(--strong);
   border-radius: 20px;
   padding: 2em;
 }
@@ -63,8 +63,8 @@
 .sqs-block-embed,
 .sqs-block-gallery,
 .video-block {
-  background: var(--secondary-light);
-  border: 2px solid var(--secondary);
+  background: var(--primary-light);
+  border: 2px solid var(--strong);
   border-radius: 20px;
   outline: 1px solid var(--secondary);
   padding: 20px;
@@ -81,10 +81,10 @@ div.image-button-inner a,
 a.sqs-block-button-element--small,
 a.sqs-block-button-element--medium,
 a.sqs-block-button-element--large {
-  background: var(--secondary-light) !important;
+  background: var(--heading) !important;
   border-color: var(--strong) !important;
   border-radius: 20px;
-  color: var(--primary) !important;
+  color: var(--primary-light) !important;
   font-family: "HanleyPro-Block", serif !important;
   text-transform: none !important;
 }
@@ -93,17 +93,17 @@ div.image-button-inner a:hover,
 a.sqs-block-button-element--small:hover,
 a.sqs-block-button-element--medium:hover,
 a.sqs-block-button-element--large:hover {
-  background: var(--secondary) !important;
+  background: var(--strong) !important;
 }
 
 .Main hr {
-  background: var(--primary);
+  background: var(--heading);
 }
 
 #sub-nav {
-  background: var(--secondary);
+  background: var(--heading);
   border-radius: 20px;
-  border: 2px solid var(--secondary-light);
+  border: 2px solid var(--strong);
   font-family: "HanleyPro-Block", serif !important;
   letter-spacing: 0.03em;
   line-height: 1em;
@@ -127,7 +127,7 @@ a.sqs-block-button-element--large:hover {
 
 #sub-nav li:hover,
 .active li {
-  color: var(--primary-light) !important;
+  color: var(--strong) !important;
 }
 
 @media screen and (max-width: 930px) {

@@ -19,6 +19,11 @@
   background-color: var(--background) !important;
 }
 
+.Intro-content {
+  padding-bottom: 1em !important;
+  padding-top: 1em !important;
+}
+
 .Main {
   background: url(https://paleontological.github.io/online-exhibits/marvelous-mollusks/bg-introduction.avif) no-repeat;
   background-size: cover;
