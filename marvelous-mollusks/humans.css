@@ -15,60 +15,14 @@
   font-style: normal;
 }
 
-.Intro {
-  background-color: var(--background) !important;
-}
-
 .Main {
-  background: url(https://paleontological.github.io/online-exhibits/marvelous-mollusks/bg-introduction.avif) no-repeat;
+  background: url(https://paleontological.github.io/online-exhibits/marvelous-mollusks/bg-humans.avif) no-repeat;
   background-size: cover;
 }
 
 .Main-content {
   text-rendering: optimizeLegibility;
   padding-top: 0;
-}
-
-#marvelous-mollusks-logo {
-  background: url(https://paleontological.github.io/online-exhibits/marvelous-mollusks/marvelous-mollusks-logo.svg) no-repeat;
-  background-size: contain;
-  background-position: center;
-  height: 100vh;
-  }
-
-#shell-spiral {
-  background: url(https://paleontological.github.io/online-exhibits/marvelous-mollusks/shell-spiral.avif) no-repeat;
-  background-size: 75vh;
-  background-position: center;
-  height: 100vh;
-  animation: rotation 120s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
-}
-
-.Intro h1 {
-  font-family: "HanleyPro-Block", serif !important;
-  font-size: 7em;
-  letter-spacing: 0.001em;
-  line-height: 1em;
-  text-shadow: 4px 3px var(--primary-light);
-  -webkit-text-stroke: 0.001em var(--background);
-}
-
-.Intro h2 {
-  color: var(--primary);
-  font-family: "HanleyPro-Block", serif !important;
-  font-size: 2em;
-  line-height: 1em;
 }
 
 .Main h1 {
