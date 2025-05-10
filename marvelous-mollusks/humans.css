@@ -16,7 +16,7 @@
 }
 
 .Main {
-  background: url(https://paleontological.github.io/online-exhibits/marvelous-mollusks/bg-humans.avif) no-repeat;
+  background: url(https://paleontological.github.io/online-exhibits/marvelous-mollusks/bg-humans.avif) no-repeat !important;
   background-size: cover;
 }
 
@@ -133,10 +133,5 @@ a.sqs-block-button-element--large:hover {
 @media screen and (max-width: 930px) {
   #sub-nav li {
     padding: 15px;
-  }
-
-  .Main {
-    background-size: 15%;
-    background-position: bottom 1em left 0.25em, top 1em left 0.25em, bottom 1em right 0.25em, top 1em right 0.25em;
   }
 }
