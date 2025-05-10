@@ -34,11 +34,22 @@
   padding-top: 0;
 }
 
+#mm-logo-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#mm-logo-container div {
+ grid-row-start: 1;
+ grid-column-start: 1;
+}
+
 #marvelous-mollusks-logo {
   background: url(https://paleontological.github.io/online-exhibits/marvelous-mollusks/marvelous-mollusks-logo.svg) no-repeat;
   background-size: contain;
   background-position: center;
   height: 100vh;
+  z-index: 999;
   }
 
 #shell-spiral {
