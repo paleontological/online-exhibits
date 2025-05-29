@@ -101,7 +101,7 @@
 
 .h1-standalone {
   color: var(--secondary-light) !important;
-  font-family: "Railway-Regular", serif !important;
+  font-family: "HanleyPro-Block", serif !important;
   font-size: 15vh;
   line-height: 1em;
   text-shadow: 1px 1px var(--background), 3px 3px var(--primary-light);
@@ -128,7 +128,7 @@
   color: var(--strong);
 }
 
-.image-block-outer-wrapper,
+.image-block-outer-wrapper:not(.animation-loaded),
 .sqs-block-video-placeholder,
 .sqs-block-embed,
 .sqs-block-gallery,
