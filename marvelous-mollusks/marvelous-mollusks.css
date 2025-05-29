@@ -127,7 +127,7 @@
   color: var(--strong);
 }
 
-.image-block-outer-wrapper:not(.animation-loaded),
+.image-block-outer-wrapper.combination-animation-none,
 .sqs-block-video-placeholder,
 .sqs-block-embed,
 .sqs-block-gallery,
