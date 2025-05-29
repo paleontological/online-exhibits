@@ -134,7 +134,6 @@
 .video-block {
   background: var(--secondary-light);
   border-radius: 20px;
-  outline: 1px solid var(--secondary);
   padding: 20px;
 }
 
