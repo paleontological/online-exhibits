@@ -101,6 +101,7 @@
 
 .h1-standalone {
   color: var(--secondary-light) !important;
+  font-family: "Railway-Regular", serif !important;
   font-size: 15vh;
   line-height: 1em;
   text-shadow: 1px 1px var(--background), 3px 3px var(--primary-light);
