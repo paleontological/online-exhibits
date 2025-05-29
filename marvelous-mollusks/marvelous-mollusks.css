@@ -96,7 +96,7 @@
 
 .Main h1 {
   color: var(--heading);
-  font-family: "Railway-Regular", serif !important;
+  font-family: "Railway-Regular", serif;
 }
 
 .h1-standalone {
@@ -119,7 +119,6 @@
 
 .Main .sqs-html-content:not(.image-caption) {
   background: var(--secondary-light);
-  border: 2px solid var(--secondary);
   border-radius: 20px;
   padding: 2em;
 }
@@ -134,7 +133,6 @@
 .sqs-block-gallery,
 .video-block {
   background: var(--secondary-light);
-  border: 2px solid var(--secondary);
   border-radius: 20px;
   outline: 1px solid var(--secondary);
   padding: 20px;
@@ -154,7 +152,7 @@ a.sqs-block-button-element--large {
   background: var(--secondary-light) !important;
   border-color: var(--strong) !important;
   border-radius: 20px;
-  color: var(--primary) !important;
+  color: var(--heading) !important;
   font-family: "Railway-Regular", serif !important;
   text-transform: none !important;
 }
@@ -163,7 +161,8 @@ div.image-button-inner a:hover,
 a.sqs-block-button-element--small:hover,
 a.sqs-block-button-element--medium:hover,
 a.sqs-block-button-element--large:hover {
-  background: var(--secondary) !important;
+  background: var(--heading) !important;
+  color: var(--secondary-light) !important;
 }
 
 .Main hr {
@@ -173,7 +172,6 @@ a.sqs-block-button-element--large:hover {
 #sub-nav {
   background: var(--secondary-light);
   border-radius: 20px;
-  border: 2px solid var(--secondary);
   font-family: "Railway-Regular", serif !important;
   letter-spacing: 0.03em;
   line-height: 1em;
