@@ -94,16 +94,20 @@
   line-height: 1em;
 }
 
-.Main h1 {
+.Main h1:not(.h1-standalone) {
   color: var(--heading);
+  font-size: 2em;
   font-family: "Railway-Regular", serif;
 }
 
 .h1-standalone {
   color: var(--secondary-light) !important;
   font-family: "HanleyPro-Block", serif !important;
-  font-size: 15vh;
+  font-size: clamp(3.5rem, 2rem + 4vw, 5rem);
   line-height: 1em;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  word-wrap: break-word;
   text-shadow: 1px 1px var(--background), 3px 3px var(--primary-light);
 }
 
