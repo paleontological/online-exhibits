@@ -27,8 +27,7 @@
 }
 
 .Intro-content {
-  padding-bottom: 1em !important;
-  padding-top: 1em !important;
+  padding: 0 !important;
 }
 
 .Main {
@@ -38,7 +37,7 @@
 
 .Main-content {
   text-rendering: optimizeLegibility;
-  padding-top: 0;
+  padding: 0;
 }
 
 #mm-logo-container {
@@ -158,6 +157,7 @@ a.sqs-block-button-element--large {
   color: var(--heading) !important;
   font-family: "Railway-Regular", serif !important;
   text-transform: none !important;
+  margin: 0 2em !important;
 }
 
 div.image-button-inner a:hover,
@@ -174,11 +174,12 @@ a.sqs-block-button-element--large:hover {
 
 #sub-nav {
   background: var(--secondary-light);
-  border-radius: 20px;
   font-family: "Railway-Regular", serif !important;
   letter-spacing: 0.03em;
   line-height: 1em;
   width: 100%;
+  position: relative;
+  z-index: 10;
 }
 
 #sub-nav ul {
@@ -186,19 +187,22 @@ a.sqs-block-button-element--large:hover {
   margin: 0;
   padding-left: 0;
   text-align: center;
+  padding: 1vw 0;
 }
 
 #sub-nav li {
+    border-radius: 30px;
   color: var(--heading);
   display: inline-block;
-  padding: 2vw 0.5vw;
+  padding: 1vw 0.5vw;
   transition: background 1s, color 1s;
   vertical-align: middle;
 }
 
 #sub-nav li:hover,
 .active li {
-  color: var(--strong) !important;
+  color: var(--secondary-light) !important;
+  background: var(--primary);
 }
 
 @media screen and (max-width: 930px) {
