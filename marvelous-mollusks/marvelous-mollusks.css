@@ -37,7 +37,7 @@
 
 .Main-content {
   text-rendering: optimizeLegibility;
-  padding: 0;
+  padding: 0 !important;
 }
 
 #mm-logo-container {
@@ -172,6 +172,13 @@ a.sqs-block-button-element--large:hover {
   background: var(--primary);
 }
 
+#mm-banner {
+  background: var(--background) url(https://paleontological.github.io/online-exhibits/marvelous-mollusks/mm-banner-logo.avif) no-repeat;
+  background-size: contain;
+  background-position: left;
+  height: 20vh;
+  }
+
 #sub-nav {
   background: var(--secondary-light);
   font-family: "Railway-Regular", serif !important;
@@ -209,4 +216,14 @@ a.sqs-block-button-element--large:hover {
   #sub-nav li {
     padding: 15px;
   }
+
+  #mm-banner {
+  background-position: center;
+  }
+}
+
+@media screen and (max-width: 640px) {
+    .sqs-layout .sqs-row .sqs-block:first-child {
+        padding-top: 0 !important;
+    }
 }
