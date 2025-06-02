@@ -185,6 +185,7 @@ a.sqs-block-button-element--large:hover {
   letter-spacing: 0.03em;
   line-height: 1em;
   width: 100%;
+  padding: 1vw 0;
   position: relative;
   z-index: 10;
 }
@@ -194,13 +195,17 @@ a.sqs-block-button-element--large:hover {
   margin: 0;
   padding-left: 0;
   text-align: center;
-  padding: 1vw 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  gap: 1vw 0;
 }
 
+
 #sub-nav li {
-    border-radius: 30px;
+  border-radius: 30px;
   color: var(--heading);
-  display: inline-block;
   padding: 1vw 0.5vw;
   transition: background 1s, color 1s;
   vertical-align: middle;
@@ -213,12 +218,13 @@ a.sqs-block-button-element--large:hover {
 }
 
 @media screen and (max-width: 930px) {
-  #sub-nav li {
-    padding: 15px;
-  }
 
+  #sub-nav li {
+    padding: 2vh 1vh;
+  }
+  
   #mm-banner {
-  background-position: center;
+    background-position: center;
   }
 }
 
