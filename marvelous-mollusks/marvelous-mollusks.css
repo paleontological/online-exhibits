@@ -212,14 +212,14 @@ a.sqs-block-button-element--large:hover {
   vertical-align: middle;
 }
 
-#sub-nav li:hover,
-.active li {
+#sub-nav li:hover:not(#hamburger),
+li.active {
   color: var(--secondary-light) !important;
   background: var(--primary);
 }
 
 #mobile-nav {
-  display: none;
+  display: none !important;
 }
 
 @media screen and (max-width: 930px) {
@@ -232,13 +232,9 @@ a.sqs-block-button-element--large:hover {
     background-position: center;
   }
 
-  #main-nav {
-    display: none;
-  }
-
   #mobile-nav {
-  display: block;
-}
+    display: block !important;
+  }
 }
 
 @media screen and (max-width: 640px) {
