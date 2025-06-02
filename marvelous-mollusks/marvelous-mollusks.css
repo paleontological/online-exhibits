@@ -46,8 +46,8 @@
 }
 
 #mm-logo-container div {
- grid-row-start: 1;
- grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-start: 1;
 }
 
 #marvelous-mollusks-logo {
@@ -56,7 +56,7 @@
   background-position: center;
   height: 100vh;
   z-index: 999;
-  }
+}
 
 #shell-spiral {
   background: url(https://paleontological.github.io/online-exhibits/marvelous-mollusks/shell-spiral.avif) no-repeat;
@@ -72,6 +72,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(359deg);
   }
@@ -177,7 +178,7 @@ a.sqs-block-button-element--large:hover {
   background-size: contain;
   background-position: left;
   height: 20vh;
-  }
+}
 
 #sub-nav {
   background: var(--secondary-light);
@@ -217,19 +218,31 @@ a.sqs-block-button-element--large:hover {
   background: var(--primary);
 }
 
+#mobile-nav {
+  display: none;
+}
+
 @media screen and (max-width: 930px) {
 
   #sub-nav li {
     padding: 2vh 1vh;
   }
-  
+
   #mm-banner {
     background-position: center;
   }
+
+  #main-nav {
+    display: none;
+  }
+
+  #mobile-nav {
+  display: block;
+}
 }
 
 @media screen and (max-width: 640px) {
-    .sqs-layout .sqs-row .sqs-block:first-child {
-        padding-top: 0 !important;
-    }
+  .sqs-layout .sqs-row .sqs-block:first-child {
+    padding-top: 0 !important;
+  }
 }
