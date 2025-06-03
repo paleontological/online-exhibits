@@ -225,7 +225,7 @@ li.active {
 @media screen and (max-width: 930px) {
 
   #sub-nav li {
-    padding: 2vh 1vh;
+    padding: 1.5vh 0;
   }
 
   #mm-banner {
@@ -234,7 +234,14 @@ li.active {
 
   #mobile-nav {
     display: block !important;
+    
   }
+
+  #sub-nav ul {
+  flex-wrap: nowrap;
+    flex-direction: column;
+  gap: 0.25vh 0;
+}
 }
 
 @media screen and (max-width: 640px) {
