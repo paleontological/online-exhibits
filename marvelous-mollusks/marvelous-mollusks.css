@@ -186,7 +186,7 @@ a.sqs-block-button-element--large:hover {
   letter-spacing: 0.03em;
   line-height: 1em;
   width: 100%;
-  padding: 1vw 0;
+  padding: 0.5em 0;
   position: relative;
   z-index: 10;
 }
@@ -202,7 +202,6 @@ a.sqs-block-button-element--large:hover {
   align-content: center;
   gap: 1vw 0;
 }
-
 
 #sub-nav li {
   border-radius: 30px;
@@ -222,7 +221,7 @@ li.active {
   display: none !important;
 }
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 949px) {
 
   #sub-nav li {
     padding: 1.5vh 0;
@@ -234,14 +233,13 @@ li.active {
 
   #mobile-nav {
     display: block !important;
-    
   }
 
   #sub-nav ul {
-  flex-wrap: nowrap;
+    flex-wrap: nowrap;
     flex-direction: column;
-  gap: 0.25vh 0;
-}
+    gap: 0.25vh 0;
+  }
 }
 
 @media screen and (max-width: 640px) {
