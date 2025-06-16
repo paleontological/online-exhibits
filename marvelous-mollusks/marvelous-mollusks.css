@@ -178,7 +178,7 @@ a.sqs-block-button-element--large:hover {
 #mm-banner {
   background: var(--background) url(https://paleontological.github.io/online-exhibits/marvelous-mollusks/mm-banner-logo.avif) no-repeat;
   background-size: contain;
-  background-position: left;
+  background-position: center;
   height: 20vh;
 }
 
@@ -226,10 +226,6 @@ li.active {
 
   #sub-nav li {
     padding: 1.5vh 0;
-  }
-
-  #mm-banner {
-    background-position: center;
   }
 
   #mobile-nav {
