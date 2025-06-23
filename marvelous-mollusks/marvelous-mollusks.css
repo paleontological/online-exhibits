@@ -7,6 +7,7 @@
   --heading: #6e3988;
   --strong: #244ca7;
   --foreground: #fff;
+  --new-blue: #97cfd4;
 }
 
 @font-face {
@@ -29,11 +30,6 @@
 
 .Intro-content {
   padding: 0 !important;
-}
-
-.Main {
-  background: #031379 url(https://paleontological.github.io/online-exhibits/marvelous-mollusks/bg-cephalopods.avif) no-repeat !important;
-  background-size: auto 100% !important;
 }
 
 .Main-content {
@@ -124,7 +120,7 @@
 
 .Main .sqs-html-content:not(.image-caption) {
   background: var(--foreground);
-  border: 1em solid var(--secondary-light);
+  border: 1em solid var(--new-blue);
   border-radius: 20px;
   padding: 2em;
 }
@@ -138,7 +134,7 @@
 .sqs-block-embed,
 .sqs-block-gallery,
 .video-block {
-  background: var(--secondary-light);
+  background: var(--new-blue);
   border-radius: 20px;
   padding: 20px;
 }
