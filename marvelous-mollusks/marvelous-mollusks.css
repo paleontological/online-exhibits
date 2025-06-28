@@ -211,7 +211,7 @@ a.sqs-block-button-element--large:hover {
 #sub-nav li:hover:not(#hamburger),
 li.active {
   color: var(--secondary-light) !important;
-  background: var(--primary);
+  background: var(--heading);
 }
 
 #mobile-nav {
