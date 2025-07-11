@@ -133,7 +133,7 @@
 .sqs-block-video-placeholder,
 .sqs-block-embed,
 .sqs-block-gallery,
-.sqs-block-summary,
+.summary-block-wrapper,
 .video-block {
   background: var(--new-blue);
   border-radius: 20px;
