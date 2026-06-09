@@ -14,7 +14,7 @@
 }
 
 .Intro h1 {
-  font-family: league-gothic, sans-serif;
+  font-family: open-sans-condensed, sans-serif;
   font-weight: 400;
   font-style: normal;
   text-transform: uppercase;
@@ -31,7 +31,7 @@
 }
 
 .Main h1 {
-  font-family: league-gothic, sans-serif;
+  font-family: open-sans-condensed, sans-serif;
   font-weight: 400;
   font-style: normal;
   text-transform: uppercase;
@@ -96,7 +96,7 @@ div.image-button-inner a,
 a.sqs-block-button-element--medium {
   color: white !important;
   font-size: 1.5em !important;
-  font-family: league-gothic, sans-serif !important;
+  font-family: open-sans-condensed, sans-serif !important;
   font-weight: 400 !important;
   font-style: normal !important;
   background: #002060 !important;
@@ -108,7 +108,7 @@ a.sqs-block-button-element--medium {
   border-bottom: 1px solid #b9c435;
   letter-spacing: .2em;
   font-weight: 400;
-  font-family: league-gothic, sans-serif;
+  font-family: open-sans-condensed, sans-serif;
   line-height: 1em;
 }
 
