@@ -105,11 +105,11 @@ a.sqs-block-button-element--medium {
 
 #sub-nav {
   width: 100%;
-  border-bottom: 1px solid #e6d119;
+  border-bottom: 2px solid #e6d119;
   letter-spacing: .2em;
   font-weight: 400;
   font-family: open-sans-condensed, sans-serif;
-  line-height: 1em;
+  line-height: 2em;
 }
 
 #sub-nav ul {
